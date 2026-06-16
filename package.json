@@ -1,0 +1,13 @@
+{
+  "name": "mscs-dia-um-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Dia Um — porta de entrada express do MS CREATIVE KEYS (site estático)",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "dependencies": {
+    "marked": "^12.0.2"
+  }
+}

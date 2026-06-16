@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>Bloco 2 · Sua primeira skill · Prompts · MS CREATIVE KEYS</title>
+<meta name="description" content="Dia Um — a porta de entrada express do MS CREATIVE KEYS. Sua v1 do sistema no ar em um dia.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="wordmark" href="index.html">MS&nbsp;CREATIVE&nbsp;KEYS</a>
+  <span class="site-tag">Dia Um</span>
+</header>
+<main class="content">
+<a class="back" href="index.html">← voltar pro mapa do dia</a>
+
+<p class="kicker"><span class="brand">MS CREATIVE KEYS</span> <span class="dot">·</span> Dia Um · Bloco 2</p>
+<h1>Bloco 2 — Sua primeira skill</h1>
+<p>Skill boa não cai do céu. Você preenche o esqueleto abaixo à mão, seguindo os passos. É mão na massa — e é isso que te ensina a fabricar a próxima sozinho.</p>
+<h2>Antes de preencher</h2>
+<p>Em 1 frase cada, responda:</p>
+<ul>
+<li><strong>Quando essa skill deve disparar?</strong> (gatilho específico)</li>
+<li><strong>Quando ela NÃO deve disparar?</strong> (anti-gatilho)</li>
+<li><strong>Qual o trabalho dela?</strong> (o job)</li>
+<li><strong>Qual o formato da saída?</strong></li>
+</ul>
+<p>Não consegue responder? A skill ainda não está pronta — volte ao candidato.</p>
+<p>A <code>description</code> é a peça mais crítica. Releia 3 vezes: específica o bastante pra não disparar em tudo, ampla o bastante pra não morrer, entendível em 5 segundos.</p>
+<hr>
+<h2>Esqueleto — SKILL.md (preencha todos os colchetes)</h2>
+<div class="code-wrap"><button class="copy" type="button" aria-label="Copiar">Copiar</button><pre><code class="language-markdown">---
+name: nome-da-skill
+version: 1.0
+changelog: &quot;V1.0 — [data] — versão inicial.&quot;
+description: &quot;Use esta skill quando [GATILHO ESPECÍFICO]. Ela [JOB]. Aplica [PROCEDIMENTO BREVE] e devolve [FORMATO].&quot;
+---
+
+# [Nome humano da skill]
+
+## O que essa skill resolve
+
+[1 parágrafo curto. O problema real que ela tira da sua mão. Não venda — descreva.]
+
+## Quando ela se aplica
+
+- [Caso 1 — específico]
+- [Caso 2 — específico]
+- [Caso 3 — específico]
+
+## Quando NÃO se aplica
+
+- [Caso fora do escopo 1]
+- [Caso fora do escopo 2]
+
+&gt; Se o usuário pedir algo nesta seção, recuse educadamente e sugira o caminho certo.
+
+## Procedimento
+
+1. **[Passo 1]** — [ação concreta, em segunda pessoa].
+2. **[Passo 2]** — [...].
+3. **[Passo 3]** — [...].
+4. **[Passo 4]** — [...].
+5. **[Passo 5]** — [...].
+
+[Cada passo é acionável. Não use &quot;pense sobre X&quot; — use &quot;identifique X&quot;, &quot;compare X com Y&quot;, &quot;marque X como Z&quot;.]
+
+## Formato de saída
+
+[Estrutura exata do output.]
+
+## Exemplo
+
+**Input típico:**
+[exemplo realista de input que essa skill receberia]
+
+**Output esperado:**
+[exemplo realista do output ideal pra esse input]
+
+## Casos de borda
+
+- **Se o input estiver muito curto** (sem dados suficientes), peça os dados que faltam antes de aplicar o procedimento.
+- **Se o input tiver múltiplos itens**, processe um por vez e devolva consolidado.
+- **Se o usuário pedir &quot;modo rápido&quot;**, ofereça versão resumida.
+
+## Versão
+
+- **v1** — [data] — versão inicial
+</code></pre></div>
+<hr>
+<h2>Instalar e testar</h2>
+<ol>
+<li>Salve em <code>/skills/nome-da-skill/SKILL.md</code>.</li>
+<li>No Claude: <strong>CUSTOMIZE → SKILLS → + → Upload Skill</strong>. Confirme que aparece ativa.</li>
+<li>Abra um chat novo e faça um pedido que <strong>deveria</strong> disparar a skill.</li>
+<li>Cheque: disparou? O output bate com o formato que você declarou? É útil? Se falhar, anote e ajuste.</li>
+</ol>
+<hr>
+
+<div class="callout callout-tip"><div class="callout-title">Quando tiver tempo</div><div class="callout-body"><p>O capstone da Semana 03 soma a <strong>eval</strong> — testar a skill com 3+ casos antes de confiar nela: Exercício Capstone da Semana 03.</p>
+</div></div>
+
+</main>
+<footer class="site-footer">— Marcel Serrano · MS CREATIVE KEYS · <strong>Dia Um</strong></footer>
+<script type="module" src="app.js"></script>
+</body>
+</html>

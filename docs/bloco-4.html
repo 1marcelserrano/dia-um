@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>Bloco 4 · o Sincronizador · Prompts · MS CREATIVE KEYS</title>
+<meta name="description" content="Dia Um — a porta de entrada express do MS CREATIVE KEYS. Sua v1 do sistema no ar em um dia.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="wordmark" href="index.html">MS&nbsp;CREATIVE&nbsp;KEYS</a>
+  <span class="site-tag">Dia Um</span>
+</header>
+<main class="content">
+<a class="back" href="index.html">← voltar pro mapa do dia</a>
+
+<p class="kicker"><span class="brand">MS CREATIVE KEYS</span> <span class="dot">·</span> Dia Um · Bloco 4</p>
+<h1>Bloco 4 — o Sincronizador</h1>
+<p><strong>o Sincronizador</strong> — uma rotina que sincroniza sua pasta local com o repo, sozinha. Ela aponta o drift, puxa o que é seguro e <strong>nunca apaga sem o gate de SHA confirmar</strong>.</p>
+<h2>Como agendar</h2>
+<p>O Claude tem um painel <strong>Routines</strong>. o Sincronizador precisa tocar arquivos locais sem você na sessão — então a camada é <strong>Desktop task</strong> (não Cloud Routine, que não enxerga sua máquina).</p>
+<ol>
+<li>Painel <strong>Routines</strong> → <strong>New routine</strong>.</li>
+<li>Cole a instrução abaixo no campo do que você quer automatizado.</li>
+<li><strong>Draft routine</strong> → confira gatilho, instrução e entrega.</li>
+<li>Camada <strong>Desktop task</strong>, apontando pra sua pasta local.</li>
+<li>Agenda (ex.: diário, 6h). <strong>Confira o fuso antes de salvar</strong> — senão &quot;6h&quot; dispara na hora errada.</li>
+<li><strong>Run now</strong> pra testar 1 ciclo sem esperar o gatilho.</li>
+</ol>
+<blockquote>
+<p>Conte com <strong>jitter</strong>: a rotina pode disparar até ~30 min depois do horário marcado. Normal.</p>
+</blockquote>
+<hr>
+<h2>Instrução do Sincronizador</h2>
+<p>Substitua <code>[caminho]</code> pela sua pasta local e <code>[nome]</code> pelo repo.</p>
+<div class="code-wrap"><button class="copy" type="button" aria-label="Copiar">Copiar</button><pre><code>CAMADA:      Desktop task   (precisa dos arquivos locais sem você na sessão)
+GATILHO:     Schedule &quot;diário, 6h, fuso [seu fuso]&quot;
+FINALIDADE:  Manutenção
+INSTRUÇÃO:
+&lt;papel&gt;o Sincronizador, vigia de sincronia entre minha pasta local [caminho] e o repo [nome].&lt;/papel&gt;
+&lt;contexto&gt;Roda diário 6h, fuso [seu fuso]. Compara a pasta local [caminho] com o
+branch default do repo [nome] — resolve o default de verdade, não assume main.&lt;/contexto&gt;
+&lt;tarefa&gt;
+1. Resolve o branch default do repo (não assuma main).
+2. Faz git fetch e lista o DRIFT em 3 baldes:
+   - só local (existe na pasta, não no repo)
+   - só remote (existe no repo, falta na pasta)
+   - divergente (SHA local ≠ SHA remote do mesmo arquivo)
+3. Para arquivos &quot;só remote&quot; / atualização limpa (fast-forward, sem conflito):
+   puxa a atualização.
+4. GATE DE SHA: depois de puxar, compara SHA local com SHA remote.
+   Iguais = ok. Diferentes = PARA e não apaga nada.
+5. Saída: relatório de drift + o que foi puxado + o que ficou PENDENTE de decisão.
+&lt;/tarefa&gt;
+&lt;regras&gt;
+- Nunca apaga nem sobrescreve arquivo local sem o gate de SHA confirmar.
+- Conflito, divergência ou perda possível → marca [DECISÃO SUA], não resolve sozinha.
+- Varre só os arquivos do escopo, nunca um rm na pasta inteira.
+- Atualiza _MANIFEST (bump + changelog) na mesma passada.
+&lt;/regras&gt;
+AVISO:       Não resolve conflito nem apaga &quot;só local&quot; no automático — isso pode ser
+trabalho seu ainda não commitado. A rotina aponta o drift e puxa o seguro;
+deletar/sobrescrever fica com você.
+PRÓXIMO:     App Desktop → Routines → New routine → Schedule &quot;diário 06:00&quot;,
+camada Desktop task, apontando pra pasta local.
+</code></pre></div>
+
+<div class="callout callout-warning"><div class="callout-title">A linha que não se cruza</div><div class="callout-body"><p>Rotina entrega rascunho, você aperta o botão do que é irreversível. Pull limpo é reversível pelo histórico do git e pode rodar sozinho. Apagar &quot;só local&quot; e resolver conflito são irreversíveis — ficam com você.</p>
+</div></div>
+<hr>
+<h2>Modelo de instrução curto (para outras rotinas)</h2>
+<p>Quando você criar a próxima rotina (um digest, um scan), a forma é a mesma:</p>
+<div class="code-wrap"><button class="copy" type="button" aria-label="Copiar">Copiar</button><pre><code>Usa minha skill [nome]. Lê [estas fontes específicas].
+Traz só [o que importa] das últimas [janela]. Máximo [N] itens. Na minha voz.
+</code></pre></div>
+<h2>Avaliar e decidir (depois do 1º ciclo)</h2>
+<ul>
+<li>Chegou no lugar e horário certos? Útil sem você refazer? (1-2 ajustes na 1ª semana é normal.)</li>
+<li>Usaria toda semana → <strong>mantém</strong>. Olhou e não voltou → <strong>desliga</strong>. Rotina morta gasta cota.</li>
+<li>Status verde ≠ &quot;funcionou&quot;. Verde só diz que a sessão abriu e fechou. Leia o relatório.</li>
+</ul>
+<hr>
+
+<div class="callout callout-tip"><div class="callout-title">Quando tiver tempo</div><div class="callout-body"><p>A Semana 04 aprofunda rotinas e seus limites: Exercício 6 da Semana 04.</p>
+</div></div>
+
+</main>
+<footer class="site-footer">— Marcel Serrano · MS CREATIVE KEYS · <strong>Dia Um</strong></footer>
+<script type="module" src="app.js"></script>
+</body>
+</html>
