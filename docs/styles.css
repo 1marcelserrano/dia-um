@@ -132,6 +132,18 @@ li::marker{color:var(--terra)}
 .copy:hover{opacity:1;background:rgba(236,227,210,.18)}
 .copy.done{color:#bfe3b0;border-color:rgba(160,210,140,.4)}
 
+/* ---------- CTA ---------- */
+.cta{
+  display:inline-block;margin:1.6rem 0 .4rem;
+  font-family:"Bebas Neue",sans-serif;letter-spacing:.06em;
+  font-size:1.4rem;line-height:1;
+  color:var(--paper);background:var(--terra);
+  padding:.7em 1.3em;border-radius:.45rem;text-decoration:none;
+  transition:.15s;box-shadow:0 2px 0 var(--terra-deep);
+}
+.cta:hover{background:var(--terra-deep);transform:translateY(1px);box-shadow:0 1px 0 var(--terra-deep)}
+.cta-note{font-size:.92rem;color:var(--muted);margin:.2rem 0 1.2rem}
+
 /* ---------- callouts ---------- */
 .callout{
   margin:1.5rem 0;padding:1rem 1.2rem;
