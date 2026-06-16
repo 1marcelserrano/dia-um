@@ -1,5 +1,5 @@
 ---
-title: "Dia Um · um dia, duas sentadas"
+title: "Dia Um · um dia, duas sessões"
 type: content
 format: home
 status: draft
@@ -11,7 +11,7 @@ cssclasses: [workbook]
 tags: [home, keys, turma-zero, dia-um, publish]
 ---
 
-> **MS CREATIVE KEYS** · Dia Um — um dia, duas sentadas
+> **MS CREATIVE KEYS** · Dia Um — um dia, duas sessões
 
 # Dia Um
 
@@ -22,7 +22,7 @@ tags: [home, keys, turma-zero, dia-um, publish]
 
 O programa de 4 semanas é sequencial: você atravessa o fundamento inteiro antes de produzir. **Dia Um** inverte. Você não monta o fundamento pra depois produzir — você produz no dia 1, e o fundamento se empilha em cima do que já roda.
 
-No fim do dia, a v1 do seu sistema está no ar: sua voz instalada, uma skill rodando, um repo vivo, **o Sincronizador** mantendo o repo em dia sozinho. Não é atalho pra fugir do programa. É a porta que coloca algo vivo na primeira sentada e depois te entrega pras 4 semanas.
+No fim do dia, a v1 do seu sistema está no ar: sua voz instalada, uma skill rodando, um repo vivo, **o Sincronizador** mantendo o repo em dia sozinho. Não é atalho pra fugir do programa. É a porta que coloca algo vivo na primeira sessão e depois te entrega pras 4 semanas.
 
 **DIA-UM** é a senha da experiência: a palavra que você manda pra entrar, e o crachá que você carrega quando termina.
 
@@ -36,7 +36,7 @@ Vender "um dia resolve tudo" como troca pelas semanas seria mentira. "Em um dia 
 
 ---
 
-## O dia — duas sentadas, 6 blocos
+## O dia — duas sessões, 6 blocos
 
 O dia parte em dois ganhos fechados, pra caber sem maratona. Crie uma pasta `MD-FILES/` (sugestão `~/MD-FILES/`); tudo do dia vive nela até virar repo na tarde. Os prompts pra copiar estão em **Prompts** (links em cada bloco).
 
