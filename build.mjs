@@ -137,5 +137,11 @@ function buildSet(pages, outDir) {
 
 buildSet(PUBLIC_PAGES, PUB);
 buildSet(PRIVATE_PAGES, PRIV);
+
+// crachá DIA-UM — peça self-contained de conclusão (entregue ao fechar o Pulso 3/3).
+// É a única peça de private/ usada de verdade na entrega: hospedar e linkar na Aula 6 do Skool.
+copyFileSync(join(__dir, 'src', 'cracha.html'), join(PRIV, 'cracha.html'));
+console.log('built private/ cracha.html');
+
 writeFileSync(join(PUB, '.nojekyll'), '');
-console.log('done — docs/ = público (landing), private/ = entrega paga (não publicado)');
+console.log('done — docs/ = público (landing). private/ = REFERÊNCIA/back-up (a entrega é o Skool); cracha.html é a peça viva.');

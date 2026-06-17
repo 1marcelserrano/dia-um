@@ -10,10 +10,18 @@ Conteúdo em `content/*.md` (markdown). O build (`build.mjs`) converte pra HTML 
 
 ```bash
 npm install
-npm run build   # gera docs/
+npm run build   # gera docs/ (público) + private/ (referência)
 ```
 
 Para atualizar o site: edite os markdowns em `content/`, rode `npm run build`, commit + push.
+
+## Onde vive a entrega paga
+
+A entrega gated do Dia Um vive no **Skool** (classroom + comunidade) — decisão do Stage 1. A fonte de verdade do conteúdo continua em `content/` (espelho de `mscs-beta-turma-zero/DIA_UM/`). Montagem do classroom em `DIA_UM/SKOOL_CLASSROOM.md`.
+
+- **`docs/`** — landing pública (GitHub Pages). É o que vende.
+- **`private/`** — espelho HTML buildado dos blocos, no Design System. **Não é a superfície de entrega** (o Skool é). Serve de **referência/back-up** renderizado: revisar o conteúdo no visual da marca, ou repescar pro Skool. Não é hospedado nem gated.
+- **`private/cracha.html`** — a peça de `private/` usada de verdade: o **crachá DIA-UM**, artefato de conclusão (gerado de `src/cracha.html`). O aluno chega nele ao fechar o Pulso 3/3, põe o nome e baixa o PNG. **Hospedar essa página** (qualquer host estático) e linkar na Aula 6 / post de conclusão do Skool.
 
 ---
 
