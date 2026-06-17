@@ -4,6 +4,7 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const __dir = dirname(fileURLToPath(import.meta.url));
+const BUILD = Date.now();   // cache-bust dos assets linkados
 const PUB = join(__dir, 'docs');       // GitHub Pages (PÚBLICO) — só a landing
 const PRIV = join(__dir, 'private');   // entrega paga (NÃO publicado) — mover pra plataforma de checkout
 
@@ -100,7 +101,7 @@ function pageTemplate({ title, body, kind }) {
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..900&family=Inter+Tight:ital,wght@0,300..700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css?v=${BUILD}">
 </head>
 <body>
 <header class="site-header">
@@ -112,7 +113,7 @@ ${back}
 ${body}
 </main>
 <footer class="site-footer">— Marcel Serrano · MS CREATIVE KEYS · <strong>Dia Um</strong></footer>
-<script type="module" src="app.js"></script>
+<script type="module" src="app.js?v=${BUILD}"></script>
 </body>
 </html>`;
 }
