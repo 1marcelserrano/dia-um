@@ -29,13 +29,14 @@ if (document.querySelector('.mermaid')) {
         startOnLoad: true,
         theme: 'base',
         themeVariables: {
-          fontFamily: 'Newsreader, Georgia, serif',
-          primaryColor: '#FbF7Ef',
-          primaryBorderColor: '#A85A30',
-          primaryTextColor: '#1f1b16',
-          lineColor: '#A85A30',
-          clusterBkg: '#F6F1E6',
-          clusterBorder: 'rgba(31,27,22,.18)',
+          fontFamily: 'Inter Tight, sans-serif',
+          background: '#14161d',
+          primaryColor: '#1A1D26',
+          primaryBorderColor: '#A89D80',
+          primaryTextColor: '#B2A898',
+          lineColor: '#756750',
+          clusterBkg: '#12141A',
+          clusterBorder: 'rgba(255,255,255,.06)',
         },
       });
     })
