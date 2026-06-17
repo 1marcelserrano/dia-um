@@ -10,7 +10,8 @@
   --bg-2:#12141A;
   --surface:#1A1D26;
   --surface-2:#14161d;
-  --heading:#ECE5D7;         /* creme claro — títulos legíveis */
+  --heading:#ECE5D7;         /* creme claro (legado) */
+  --head-muted:#8f8a7e;      /* cinza fosco editorial — base do headline (DEC-020) */
   --text:#C2BAAB;            /* corpo (contraste corrigido) */
   --text-secondary:rgba(194,186,171,.7);
   --text-muted:rgba(194,186,171,.42);
@@ -94,10 +95,10 @@ body::before{
 
 .kicker{
   font-family:var(--font-mono);letter-spacing:.25em;text-transform:uppercase;
-  font-size:.72rem;color:var(--text-muted);margin:0 0 2rem;
+  font-size:.72rem;color:var(--hl);margin:0 0 2rem;
 }
-.kicker .brand{color:var(--accent)}
-.kicker .dot{opacity:.5;margin:0 .3em}
+.kicker .brand{color:var(--hl)}
+.kicker .dot{color:var(--hl-2);margin:0 .3em}
 
 .back{
   display:inline-block;margin-bottom:2rem;
@@ -110,22 +111,29 @@ body::before{
 h1{
   font-family:var(--font-display);
   font-variation-settings:'opsz' 72;
-  font-weight:600;letter-spacing:-.015em;line-height:1.06;
+  font-weight:600;letter-spacing:-.015em;line-height:1.08;
   font-size:clamp(2.5rem,6.2vw,3.7rem);
-  margin:.4rem 0 1.4rem;color:var(--heading);
+  margin:.4rem 0 1.4rem;color:var(--head-muted);
+}
+h1::after{
+  content:"";display:block;
+  width:clamp(120px,30%,230px);height:2px;margin:1.2rem 0 0;
+  background:linear-gradient(90deg,var(--hl) 0%,var(--hl-2) 45%,transparent 100%);
 }
 h2{
   font-family:var(--font-display);
   font-variation-settings:'opsz' 72;
-  font-weight:600;letter-spacing:-.015em;line-height:1.12;
+  font-weight:600;letter-spacing:-.015em;line-height:1.14;
   font-size:clamp(1.7rem,3.4vw,2.3rem);
-  margin:3rem 0 1rem;color:var(--heading);
+  margin:3rem 0 1rem;color:var(--head-muted);
 }
 h3{
-  font-family:var(--font-body);
-  font-size:1.18rem;font-weight:600;letter-spacing:-.01em;
-  margin:2rem 0 .5rem;color:#DCD4C4;
+  font-family:var(--font-display);
+  font-variation-settings:'opsz' 24;
+  font-size:1.22rem;font-weight:600;letter-spacing:-.01em;
+  margin:2rem 0 .5rem;color:#9a958a;
 }
+h1 em,h2 em,h3 em{color:var(--hl);font-style:italic;font-weight:inherit}
 p{margin:0 0 1.05rem;color:var(--text)}
 a{color:var(--hl)}
 strong{font-weight:600;color:var(--hl)}

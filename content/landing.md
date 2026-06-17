@@ -6,7 +6,7 @@ voz: MSCS (Tradutor)
 
 > **MS CREATIVE KEYS** · Dia Um
 
-# Monte hoje a primeira versão do seu sistema de IA.
+# Monte hoje a primeira versão do *seu sistema de IA*.
 
 **Pare de começar do zero e comece a trabalhar do seu jeito.**
 
@@ -23,7 +23,7 @@ No Dia Um, você organiza sua voz, seus critérios e uma tarefa recorrente numa 
 
 <a class="cta" href="[LINK_CHECKOUT]">Quero montar minha primeira versão →</a>
 
-## Uma boa resposta não é um sistema
+## Uma boa resposta não é *um sistema*
 
 Você consegue um texto bom, ajusta algumas palavras e segue o trabalho.
 
@@ -150,7 +150,7 @@ Participe do Dia Um. Se perceber que a experiência não é adequada para você,
 
 **Meus dados ou meu conteúdo vão treinar alguma ferramenta?** <span class="tbd">a confirmar (política de dados)</span>
 
-## Pare de reconstruir tudo a cada conversa
+## Pare de reconstruir tudo *a cada conversa*
 
 Monte hoje a primeira versão do seu sistema de IA e termine o dia com uma tarefa real funcionando do seu jeito.
 
