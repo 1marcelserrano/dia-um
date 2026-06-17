@@ -17,7 +17,7 @@ tags: [material, prompt, keys, turma-zero, dia-um, publish]
 
 # Bloco 4 — o Sincronizador
 
-**o Sincronizador** — uma rotina que sincroniza sua pasta local com o repo, sozinha. Ela aponta o drift, puxa o que é seguro e **nunca apaga sem o gate de SHA confirmar**.
+Assista o vídeo do Bloco 4. **o Sincronizador** — uma rotina que sincroniza sua pasta local com o repo, sozinha. Ela aponta o drift, puxa o que é seguro e **nunca apaga sem o gate de SHA confirmar**.
 
 ## Como agendar
 
@@ -76,6 +76,19 @@ camada Desktop task, apontando pra pasta local.
 
 ---
 
+## Plano B — seu app não tem Desktop task
+
+A camada **Desktop task** é o que deixa a rotina tocar seus arquivos locais sem você na sessão. Nem todo plano/versão do app tem ela. Se você não acha "Desktop task" ao criar a rotina, o bloco não trava — você ainda sai com o Sincronizador, em modo manual:
+
+1. **Guarde a instrução do Sincronizador** (o bloco acima) num arquivo `sincronizador.md` dentro do seu repo. Ela é a peça de valor — o agendamento é só o gatilho.
+2. **Rode na mão, 1x ao dia.** Abra um chat no app Desktop apontado pra sua pasta, cole a instrução, deixe ele comparar e puxar o seguro. Leva 1 minuto.
+3. **Conta como rotina no ar** pro Pulso: a lógica de sincronia existe e roda; o que falta é só o timer automático. Quando seu plano liberar o Desktop task, você cola a mesma instrução e marca o horário — zero retrabalho.
+
+> [!info] O Sincronizador é a instrução, não o botão
+> Ter a instrução pronta e rodando (mesmo na mão) é a terceira batida do Pulso. O agendamento automático é um upgrade, não um pré-requisito.
+
+---
+
 ## Modelo de instrução curto (para outras rotinas)
 
 Quando você criar a próxima rotina (um digest, um scan), a forma é a mesma:
@@ -90,6 +103,16 @@ Traz só [o que importa] das últimas [janela]. Máximo [N] itens. Na minha voz.
 - Chegou no lugar e horário certos? Útil sem você refazer? (1-2 ajustes na 1ª semana é normal.)
 - Usaria toda semana → **mantém**. Olhou e não voltou → **desliga**. Rotina morta gasta cota.
 - Status verde ≠ "funcionou". Verde só diz que a sessão abriu e fechou. Leia o relatório.
+
+---
+
+## Exercício — feito quando
+
+**Faça:** crie o Sincronizador e rode o teste num sandbox — 5 itens de verificação + 1 caso de falha forçada (corte a rede no meio do push).
+
+**Feito quando:** os **5 itens passam** (classifica os 3 baldes, puxa o fast-forward, gate bloqueia o divergente, não apaga "só local", fuso certo) **e** o **gate para na falha forçada** sem apagar nada. Os dois. Só depois disso você solta a rotina pros seus arquivos reais. Antes disso, ela fica no sandbox.
+
+→ Marque a **terceira batida** no [o Pulso](pulso.html).
 
 ---
 

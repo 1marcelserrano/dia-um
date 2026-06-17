@@ -55,7 +55,9 @@ flowchart LR
 
 ### Manhã — seu sistema pensa como você (~3,5h)
 
-**Bloco 0 — Primeiro disparo · 30 min.** Em vez de teoria antes de produzir, o dia abre produzindo. Dispare um prompt que já carrega contexto, veja sair algo aproveitável, e só então olhe pra trás. Você deu **contexto**, não só ordem; veio em **markdown**; e o que ele errou mostra os **limites** — não peça dado em tempo real, conta exata, nem decisão por você.
+**Bloco 0 — Primeiro disparo · 30 min.** Em vez de teoria antes de produzir, o dia abre produzindo. Dispare um prompt que já carrega contexto, veja sair algo aproveitável, e só então olhe pra trás. Você deu **contexto**, não só ordem; veio em **markdown**; e o que ele errou mostra os **limites** — não peça dado em tempo real, conta exata, nem decisão por você. No fim: **você já tem seu primeiro rascunho usável** — a primeira vitória do dia, antes de instalar qualquer coisa.
+
+→ Prompts: [[Prompts/Bloco 0 · Primeiro disparo|Bloco 0 · Primeiro disparo]]
 
 **Bloco 1 — Claude na sua voz · 90 min.** Junte 2-3 textos reais seus. Rode o WRITEPRINT, escreva `about-me.md` e `writing-style.md` (5 seções; a lista *evitar* vale mais que a *usar*). Teste num chat novo: "descreve como sou profissionalmente". Saiu você? Use numa tarefa real hoje — primeira batida no Pulso.
 
@@ -75,13 +77,15 @@ flowchart LR
 
 → Prompts: [[Prompts/Bloco 4 · o Sincronizador|Bloco 4 · o Sincronizador]]
 
-**Fecho · 20 min.** Rode uma tarefa real ponta a ponta pelo sistema: contexto carregado → skill ativada → resultado na sua voz. Marque **o Pulso**: 1 tarefa rodada, 1 skill criada, 1 rotina no ar. Está vivo.
+**Fecho · 20 min.** Rode uma tarefa real ponta a ponta pelo sistema: contexto carregado → skill ativada → resultado na sua voz. Marque **o Pulso** em 3/3 → [o Pulso](pulso.html). Está vivo.
+
+Cada bloco fecha com um **exercício e um critério binário de "feito"** — pra você saber que rodou de verdade, não só que entendeu.
 
 ---
 
 ## o Pulso — o score
 
-Não mede "quão pronto você está". Mede o que você fez rodar. **o Pulso** bate em três: **tarefas reais rodadas** + **skills criadas** + **rotinas no ar**. Um dia bem feito fecha com pelo menos 1 batida em cada. Não há nota de "completo". Há "está vivo e crescendo".
+Não mede "quão pronto você está". Mede o que você fez rodar. **o Pulso** bate em três: **tarefas reais rodadas** + **skills criadas** + **rotinas no ar**. Você marca cada batida ao vivo no tracker → [o Pulso](pulso.html), de 0/3 a 3/3. Um dia bem feito fecha com pelo menos 1 em cada. Não há nota de "completo". Há "está vivo e crescendo".
 
-> [!tip] Sua v1 está no ar
-> Daqui você evolui pra sempre. Cada bloco do dia vira fundamento sólido no programa completo de 4 semanas — é pra onde você vai quando quiser aprofundar.
+> [!tip] Sua v1 está no ar — e o próximo passo
+> Daqui você evolui pra sempre. **Prompt Zero** é onde cada peça que você pôs no ar hoje vira fundamento: 4 semanas guiadas, 1 ano de acesso, em cima do que já roda. E o **valor que você pagou no Dia Um vira crédito no Prompt Zero** — a porta de entrada abate no programa, você não paga duas vezes.

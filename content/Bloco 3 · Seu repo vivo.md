@@ -17,7 +17,20 @@ tags: [material, prompt, keys, turma-zero, dia-um, publish]
 
 # Bloco 3 — Seu repo vivo
 
-Três peças: organizar o repo (sem apagar nada), instalar a regra do pulo do gato, e o prompt de handoff que move um output pro repo com segurança.
+Assista o vídeo do Bloco 3. Este é o bloco com mais ferramenta nova de uma vez — então ele começa pelo setup. Quatro peças: deixar o GitHub pronto, organizar o repo (sem apagar nada), instalar a regra do pulo do gato, e o prompt de handoff que move um output pro repo com segurança.
+
+---
+
+## 0. Antes de começar — GitHub pronto (pré-passo)
+
+O bloco assume três coisas no lugar. Cinco minutos agora poupam o pico de fricção do dia. Confira na ordem:
+
+1. **Conta GitHub.** [github.com](https://github.com) → Sign up. E-mail, senha, confirma. Plano free basta.
+2. **GitHub Desktop instalado.** [desktop.github.com](https://desktop.github.com) → baixa, instala, abre. É o app com botão pra tudo — você não toca no terminal.
+3. **Desktop conectado à conta.** No GitHub Desktop: **File → Options → Accounts → Sign in**. Faz o login no navegador, autoriza, volta. É isso que deixa o `push` e o `clone` funcionarem sem pedir senha toda hora.
+
+> [!info] Checkpoint do setup
+> Você consegue, no GitHub Desktop, ver seu nome de usuário em Options → Accounts? Se sim, está autenticado — siga. Se não, o `push` vai falhar lá na frente; resolva o login agora, não depois.
 
 ---
 
@@ -81,60 +94,37 @@ Atualiza _MANIFEST (bump + changelog) e este CLAUDE.md na mesma operação.
 
 ---
 
-## 3. Prompt de handoff (mover um output pro repo)
+## 3. Prompt de handoff (mover um output pro repo) — versão Dia Um
 
-Substitua os placeholders: `PACOTE` (pasta/arquivo do output) · `CAMINHO_OUTPUTS` (ex.: `~/Desktop/Claude Outputs`) · `REPO_DESTINO` (ex.: `~/Documents/repos/md-files`) · `SUBPASTA_DESTINO` (ex.: `KNOWLEDGE/conteudo/`).
+Hoje você só precisa de uma coisa: tirar um output da bancada e colocar no repo **sem perder nada no meio**. A trava que garante isso é o gate de SHA — só apaga a cópia local depois de provar que o repo recebeu. Esta é a versão curta. Cole no Claude apontado pra pasta do output.
+
+Substitua: `PACOTE` (o arquivo/pasta do output) · `REPO` (a pasta local do `md-files`) · `DESTINO` (subpasta dentro do repo, ex.: `KNOWLEDGE/`).
 
 ```
-Execute um handoff de output pro repo, nesta ordem, sem pular nenhum passo.
+Move o PACOTE pra dentro do meu repo, com segurança, nesta ordem:
 
-PASSO 1 — Resolve o branch default.
-Resolve o branch default do repo em REPO_DESTINO com
-`git remote show origin` ou `gh repo view`. NÃO assuma que é main.
-Guarda o nome do branch pra usar no gate.
-
-PASSO 2 — Garante o repo local atualizado.
-Se REPO_DESTINO não existir localmente, clona. Se existir, faz
-`git pull` do branch default antes de qualquer cópia.
-
-PASSO 3 — Copia preservando a estrutura.
-Copia o pacote de CAMINHO_OUTPUTS/PACOTE pra
-REPO_DESTINO/SUBPASTA_DESTINO/, mantendo a organização interna de
-pastas intacta, pra os links e referências relativas continuarem válidos.
-
-PASSO 4 — Commita e pusha.
-git add SÓ do que entrou (não um add -A cego). Commita com mensagem que
-diz o que entrou e de onde veio:
-"Add PACOTE (handoff da Claude Outputs → SUBPASTA_DESTINO)".
-Push pro branch default.
-
-PASSO 5 — GATE DE VERIFICAÇÃO (não pule).
-Compara o SHA do commit local com o do remote:
-  LOCAL=$(git rev-parse HEAD)
-  REMOTE=$(git rev-parse origin/<branch_default>)
-Se LOCAL == REMOTE: o push chegou, pode seguir pro Passo 6.
-Se LOCAL != REMOTE: PARA AQUI. Não apaga nada. Me avisa que o push
-não confirmou e mostra os dois SHAs.
-
-PASSO 6 — Apaga da bancada, só se o gate passou.
-Remove CAMINHO_OUTPUTS/PACOTE. Apaga SÓ o pacote, nada além dele.
-A pasta Claude Outputs continua intacta no resto.
-
-PASSO 7 — Atualiza os registros na mesma passada.
-No REPO_DESTINO:
-- _MANIFEST (ou _MANIFEST.md): bumpa versão, põe data de hoje, e adiciona
-  linha de changelog dizendo que PACOTE migrou da Claude Outputs pra
-  SUBPASTA_DESTINO.
-- CLAUDE.md: garante que a seção "Claude Outputs → repo" com a regra
-  permanente existe. Se não existir, cria.
-Commita e pusha os dois registros.
-
-No fim, me mostra: o SHA local, o SHA remote, a confirmação de que bateram
-ANTES de qualquer deleção, e o diff do _MANIFEST e do CLAUDE.md.
+1. Copia PACOTE pra REPO/DESTINO/ (não move ainda, só copia).
+2. No REPO: git add só do que entrou, commita "Add PACOTE", e dá push.
+3. GATE: compara o SHA local (git rev-parse HEAD) com o remote
+   (git rev-parse origin/<branch default — resolve, não assuma main>).
+   - Iguais → o push chegou. Pode apagar a cópia original do PACOTE.
+   - Diferentes → PARA. Não apaga nada. Me mostra os dois SHAs.
+4. No fim, me mostra: SHA local, SHA remote, e se bateram antes de apagar.
 ```
 
 > [!warning] Por que o gate de SHA existe
-> Apagar antes de verificar é o erro mais caro do método. Se o push falhou e você já apagou, perdeu o arquivo. SHA local = SHA remote é a única prova de que o repo recebeu antes de você apagar a única cópia. É a trava que separa "movi" de "achei que movi".
+> Apagar antes de verificar é o erro mais caro do método. Se o push falhou e você já apagou, perdeu o arquivo. SHA local = SHA remote é a única prova de que o repo recebeu antes de você apagar a única cópia. É a trava que separa "movi" de "achei que movi" — e é a mesma trava que o Sincronizador usa no Bloco 4.
+
+> [!tip] Versão completa (pra depois)
+> A de 7 passos — com `git pull` antes de copiar, mensagem de commit que rastreia a origem, e atualização do `_MANIFEST` + `CLAUDE.md` na mesma passada — está na Semana 04 (Exercício 3b, o pulo do gato). Use quando o handoff virar rotina sua. Hoje, a versão curta acima já te protege.
+
+---
+
+## Exercício — feito quando
+
+**Faça:** crie o repo `md-files` (Private), clone no GitHub Desktop, copie tudo da sua `MD-FILES/` pra dentro, commit "Dia Um — setup inicial" e push.
+
+**Feito quando:** você **abre github.com no navegador e vê seu sistema lá** — o `about-me.md`, o `writing-style.md` e a pasta da sua skill, dentro do repo, na web. Não no seu computador: na nuvem. Se aparece lá, o push funcionou e você tem backup e histórico.
 
 ---
 

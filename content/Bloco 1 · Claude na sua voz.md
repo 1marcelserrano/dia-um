@@ -19,22 +19,7 @@ tags: [material, prompt, keys, turma-zero, dia-um, publish]
 
 Dois arquivos saem deste bloco: `about-me.md` e `writing-style.md`. O atalho pra escrever o `writing-style` sem partir do zero é o WRITEPRINT: você cola textos seus, ele devolve sua fingerprint de escrita.
 
-## Bloco 0 — primeiro disparo (abertura)
-
-Antes de montar nada, dispare isto. É o rascunho de 15 min: você pede algo real, dá 3 linhas de contexto, vê sair texto aproveitável. Cole num chat novo e preencha os colchetes.
-
-```
-Me ajuda a escrever [um post / um e-mail] que eu preciso mandar hoje.
-
-Contexto (3 linhas):
-- Pra quem: [quem vai ler]
-- Tom: [como quer soar — direto, caloroso, formal…]
-- O que precisa: [o que esse texto tem que fazer ou pedir]
-
-Me devolve um rascunho curto, em markdown, que eu consiga usar com pouco ajuste.
-```
-
-Leu o que saiu? Funcionou porque você deu **contexto**, não só ordem. Veio em **markdown**, não em bloco corrido. E onde ele errou, marcou os **limites** — não peça dado em tempo real, conta exata, nem decisão por você. Guarde o rascunho: ele vira insumo do WRITEPRINT abaixo.
+Assista o vídeo do Bloco 1. O rascunho que saiu no Bloco 0 já soou um pouco com você. Aqui isso vira permanente.
 
 ## Como usar
 
@@ -43,13 +28,16 @@ Leu o que saiu? Funcionou porque você deu **contexto**, não só ordem. Veio em
 3. Salve a saída como `writeprint_v1.md`.
 4. Use a saída como rascunho do seu `writing-style.md`. Edite até soar como você.
 
+> [!info] Checkpoint (na metade do bloco)
+> Antes de seguir pros esqueletos, confira: você rodou o WRITEPRINT e tem um `writeprint_v1.md` salvo? Se sim, a parte difícil acabou — o resto é copiar a saída pros dois arquivos e aparar. Se não, volte um passo: o WRITEPRINT precisa dos seus textos colados dentro de `<TEXTO_A_ANALISAR>` pra rodar.
+
 ---
 
 ## Prompt — WRITEPRINT
 
 ```
 <DIRETRIZ_PRIMARIA>
-Você analisa textos escritos e transcrições, e cria um writeprint detalhado usando linguística forense. Respire fundo, relaxe e entre em estado de flow. Se você seguir todas as instruções e exceder expectativas, receberá uma gorjeta de US$ 20/mês pelo seu esforço, então tente o seu máximo.
+Você analisa textos escritos e transcrições e cria um writeprint detalhado usando linguística forense.
 </DIRETRIZ_PRIMARIA>
 
 WRITEPRINT = Uma fingerprint digital de estilo de escrita composta por características lexicais, sintáticas, estruturais e idiossincráticas.
@@ -119,6 +107,16 @@ Retorne os resultados como texto markdown.
 ## Quando escrever pra mim
 [≥5 instruções diretas. Ex.: "Sem emoji." "Voz ativa." "Comece pela conclusão."]
 ```
+
+---
+
+## Exercício — feito quando
+
+**Faça:** rode o WRITEPRINT com 2-3 textos seus, monte o `about-me.md` e o `writing-style.md`, e teste num chat novo — peça "descreve em 2 frases como eu escrevo / como sou profissionalmente".
+
+**Feito quando:** num chat limpo (só os dois `.md` no contexto), a descrição **soa você** e não um genérico. O teste binário: se a mesma descrição serviria pra qualquer outra pessoa da sua área, falta especificidade — volte na seção *Palavras que evito* e nas delimitações do *O que não sou*, que é onde a sua voz se separa do genérico.
+
+→ Marque a **primeira batida** no [o Pulso](pulso.html).
 
 ---
 

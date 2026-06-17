@@ -21,10 +21,12 @@ const PUBLIC_PAGES = [
 ];
 const PRIVATE_PAGES = [
   { file: 'Dia Um.md', out: 'index.html', kind: 'hub' },
+  { file: 'Bloco 0 · Primeiro disparo.md', out: 'bloco-0.html', kind: 'prompt' },
   { file: 'Bloco 1 · Claude na sua voz.md', out: 'bloco-1.html', kind: 'prompt' },
   { file: 'Bloco 2 · Sua primeira skill.md', out: 'bloco-2.html', kind: 'prompt' },
   { file: 'Bloco 3 · Seu repo vivo.md', out: 'bloco-3.html', kind: 'prompt' },
   { file: 'Bloco 4 · o Sincronizador.md', out: 'bloco-4.html', kind: 'prompt' },
+  { file: 'o Pulso.md', out: 'pulso.html', kind: 'prompt' },
 ];
 
 function stripFrontmatter(md) {
