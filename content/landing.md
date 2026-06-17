@@ -130,7 +130,7 @@ Você recebe:
 - roteiro para criar a próxima tarefa;
 - garantia de sete dias.
 
-### R$97
+### R$97,99
 
 Pagamento único.
 
@@ -158,4 +158,4 @@ Monte hoje a primeira versão do seu sistema de IA e termine o dia com uma taref
 
 ---
 
-O Dia Um é um produto completo. Caso você decida avançar depois para o **Prompt Zero**, os R$97 pagos aqui viram crédito integral.
+O Dia Um é um produto completo. Caso você decida avançar depois para o **Prompt Zero**, os R$97,99 pagos aqui viram crédito integral.
