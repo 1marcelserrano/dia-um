@@ -21,7 +21,7 @@ No Dia Um, você organiza sua voz, seus critérios e uma tarefa recorrente numa 
 
 **Um dia. Duas sessões. Uma tarefa real funcionando.**
 
-<a class="cta" href="[LINK_CHECKOUT]">Quero montar minha primeira versão →</a>
+<a class="cta" href="https://buy.stripe.com/7sY5kEa0U6o18MN2khg7e00">Quero montar minha primeira versão →</a>
 
 ## Uma boa resposta não é *um sistema*
 
@@ -134,7 +134,7 @@ Você recebe:
 
 Pagamento único.
 
-<a class="cta" href="[LINK_CHECKOUT]">Quero montar minha primeira versão →</a>
+<a class="cta" href="https://buy.stripe.com/7sY5kEa0U6o18MN2khg7e00">Quero montar minha primeira versão →</a>
 
 <p class="cta-note">O acesso e as instruções chegam no e-mail informado no checkout.</p>
 
@@ -154,7 +154,7 @@ Participe do Dia Um. Se perceber que a experiência não é adequada para você,
 
 Monte hoje a primeira versão do seu sistema de IA e termine o dia com uma tarefa real funcionando do seu jeito.
 
-<a class="cta" href="[LINK_CHECKOUT]">Quero montar minha primeira versão →</a>
+<a class="cta" href="https://buy.stripe.com/7sY5kEa0U6o18MN2khg7e00">Quero montar minha primeira versão →</a>
 
 ---
 
