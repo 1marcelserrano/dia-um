@@ -1,90 +1,103 @@
 ---
-title: "Dia Um · sua primeira IA de trabalho, funcionando"
+title: "Dia Um · monte a primeira versão do seu sistema de IA"
 type: landing
 voz: MSCS (Tradutor)
 ---
 
 > **MS CREATIVE KEYS** · Dia Um
 
-# Você não precisa de mais um curso de IA. Precisa da sua, rodando.
+# Monte hoje a primeira versão do seu sistema de IA.
 
-Você usa ChatGPT, Claude ou Gemini, mas cada conversa começa do zero. As respostas vêm genéricas. Seus melhores prompts ficam espalhados. O que funcionou ontem some entre abas, documentos e históricos.
+**Pare de começar do zero e comece a trabalhar do seu jeito.**
 
-No **Dia Um**, você monta a primeira versão do seu sistema de IA em duas sessões práticas. Ao terminar, você tem:
+Você já usa ChatGPT, Claude ou Gemini, mas ainda depende de conversas soltas, respostas genéricas e prompts espalhados.
+
+No Dia Um, você organiza sua voz, seus critérios e uma tarefa recorrente numa estrutura própria que continua funcionando depois que a conversa termina.
 
 - sua voz e seus critérios registrados;
 - uma tarefa recorrente configurada;
-- seus arquivos organizados num espaço próprio;
-- uma rotina que mantém tudo atualizado.
+- seus arquivos organizados;
+- uma rotina de atualização funcionando.
 
 **Um dia. Duas sessões. Uma tarefa real funcionando.**
 
-<a class="cta" href="[LINK_CHECKOUT]">Quero montar meu sistema →</a>
+<a class="cta" href="[LINK_CHECKOUT]">Quero montar minha primeira versão →</a>
 
-## Você usa IA. Só ainda não construiu algo que continue funcionando amanhã.
+## Uma boa resposta não é um sistema
 
-Você pede um texto, ajusta, consegue uma boa resposta e segue o dia. Quando precisa repetir a tarefa, começa tudo de novo.
+Você consegue um texto bom, ajusta algumas palavras e segue o trabalho.
 
-Não é porque você não sabe usar IA. É porque você ainda não transformou seus melhores critérios, exemplos e processos num sistema reutilizável.
+Quando precisa repetir a tarefa, procura o prompt, tenta lembrar o contexto e reconstrói tudo.
 
-O Dia Um existe pra construir essa primeira estrutura com você.
+O problema não é saber pedir. É que sua voz, seus critérios e seu processo ainda não estão organizados para serem usados de novo.
+
+O Dia Um transforma uma dessas tarefas soltas na primeira peça do seu sistema.
 
 ## O que "sistema" quer dizer aqui
 
-Nada de software complexo. Um sistema, no Dia Um, é um conjunto organizado com a **sua voz**, os **seus critérios**, uma **tarefa configurada** e uma **rotina de atualização**, guardado num espaço que continua sendo seu.
+Nada de software complexo. Um sistema, no Dia Um, é um conjunto organizado com a sua voz, os seus critérios, uma tarefa configurada e uma rotina de atualização, guardado num espaço que continua sendo seu.
 
-É isso que você monta no dia. E sai com ele rodando.
+É essa primeira estrutura que você monta durante o Dia Um.
 
 ## O que é o Dia Um
 
-Uma experiência prática de aproximadamente seis horas, dividida em duas sessões. Durante o processo, você configura a primeira versão do seu sistema usando tarefas reais do seu trabalho. Você não assiste a uma sequência de aulas pra ver depois. Você constrói enquanto acompanha.
+Uma experiência prática de aproximadamente seis horas, dividida em duas sessões. Você trabalha sobre uma tarefa real do seu dia a dia e constrói enquanto acompanha.
 
-<div class="placeholder">[ PREENCHER — informação comercial que decide a compra: <b>formato</b> (ao vivo ou gravado) · <b>modalidade</b> (individual ou turma) · <b>datas e horários</b> · <b>ferramentas necessárias</b> (precisa de ChatGPT Plus / Claude Pro? conta no GitHub?) · <b>gravação / acesso posterior</b> · <b>canal de suporte</b>. Sem isso, a página não fecha a venda. ]</div>
+- **Formato:** <span class="tbd">a confirmar</span>
+- **Modalidade:** <span class="tbd">a confirmar</span>
+- **Data e horário:** <span class="tbd">a confirmar</span>
+- **Ferramentas necessárias:** <span class="tbd">a confirmar</span>
+- **Acesso posterior:** <span class="tbd">a confirmar</span>
+- **Suporte:** <span class="tbd">a confirmar</span>
 
 ## Como o dia funciona
 
-**Primeira sessão.** Você escolhe uma tarefa real, reúne exemplos do seu trabalho e registra voz, contexto e critérios. Ainda nessa sessão, roda a primeira versão e compara o resultado.
+**Primeira sessão.** Você escolhe uma tarefa real, reúne exemplos do seu trabalho e registra sua voz, seu contexto e seus critérios. Ainda nessa sessão, executa a primeira versão e compara o resultado com uma resposta genérica.
 
-**Intervalo.** Você recebe uma tarefa curta de preparação pra consolidar os materiais.
+**Intervalo.** Você organiza os materiais que serão usados na segunda parte.
 
-**Segunda sessão.** Você organiza o sistema fora da conversa, configura a rotina de atualização e roda de novo a tarefa escolhida.
+**Segunda sessão.** Você leva o sistema para um espaço próprio, configura a rotina de atualização e executa de novo a tarefa escolhida.
 
-**Ao terminar,** você tem uma base de voz e contexto, uma tarefa configurada, uma estrutura organizada, uma rotina de atualização e um resultado real produzido pelo sistema.
+**No final,** você terá uma base de voz e contexto, uma tarefa estruturada, os arquivos organizados, uma rotina de atualização e um resultado real produzido pelo sistema.
 
 ## O que você constrói
 
-### 1. Uma base com a sua voz
-Você registra exemplos, escolhas de linguagem e critérios, pra cortar resposta genérica e retrabalho.
+### 1. Sua voz registrada
+Você organiza exemplos, escolhas de linguagem e critérios para reduzir respostas genéricas e retrabalho.
 
-### 2. Uma tarefa reutilizável
-Você pega uma atividade que repete no trabalho e transforma numa **skill**: uma instrução reutilizável que faz a IA executar essa tarefa do seu jeito, de novo, sem você reescrever tudo.
+### 2. Uma tarefa que pode ser repetida
+Você transforma uma atividade recorrente numa skill: uma instrução reutilizável que faz a IA executar essa tarefa do seu jeito.
 
-### 3. Um espaço próprio pro sistema
-Você organiza arquivos e instruções num **repositório**: uma pasta estruturada, com histórico e backup, onde o sistema deixa de depender de uma conversa solta.
+### 3. Um lugar próprio para o sistema
+Você organiza arquivos e instruções num repositório com histórico e backup.
 
-### 4. Uma rotina de atualização
-Você configura **o Sincronizador**: uma rotina que mantém os arquivos essenciais atualizados sem você precisar copiar tudo de novo.
+### 4. Uma rotina que mantém tudo atualizado
+Você configura o Sincronizador para atualizar os arquivos essenciais sem precisar copiar tudo de novo.
 
 No fim, você roda uma tarefa real usando o que acabou de construir. Essa é a prova de que a primeira versão está funcionando.
 
-## Você não passa horas esperando a primeira entrega
+## Você produz antes de terminar de configurar
 
-Nos primeiros quinze minutos, você roda uma tarefa com um prompt guiado. A ideia não é terminar o sistema nesse momento. É produzir a primeira saída concreta e usar o resultado como ponto de partida pro resto do dia.
+Nos primeiros quinze minutos, você executa uma tarefa com um prompt guiado e gera a primeira saída concreta. Esse resultado vira a base de comparação para o restante do dia.
 
-<div class="placeholder">[ PROVA DO MECANISMO — inserir aqui: imagem de uma resposta genérica <b>×</b> a mesma tarefa na voz configurada, com legenda de 2 linhas (antes: correta, mas genérica · depois: na sua voz, com seus critérios). + vídeo de 60–90s mostrando a entrada, a tarefa executada, onde o sistema fica guardado e o que segue funcionando depois. Enquanto não houver cliente, use o seu próprio caso como prova. ]</div>
+## A diferença, lado a lado
+
+**Antes.** Uma resposta correta, mas genérica, sem memória dos critérios e sem relação clara com a sua voz.
+
+**Depois.** A mesma tarefa executada usando exemplos, contexto e critérios organizados durante o Dia Um.
+
+<div class="proof-slot">captura de tela real (antes × depois) ou vídeo curto da tarefa entrando, o sistema consultando os arquivos e o resultado aparecendo</div>
 
 ## O que fica com você
 
-Ao terminar o Dia Um, você leva:
-
-- os arquivos de voz e contexto criados no processo;
-- sua primeira tarefa estruturada;
-- os prompts usados;
-- o repositório organizado;
-- a rotina de atualização;
-- o roteiro pra criar a próxima tarefa;
-- acesso ao material do Dia Um;
-- o resultado produzido durante a experiência.
+- base de voz e contexto;
+- primeira tarefa estruturada;
+- prompts e modelos utilizados;
+- repositório organizado;
+- rotina de atualização;
+- roteiro para criar a próxima tarefa;
+- material do Dia Um;
+- resultado produzido durante a experiência.
 
 ## Pra quem é, e pra quem não é
 
@@ -94,7 +107,7 @@ Ao terminar o Dia Um, você leva:
 - escreve, cria, atende, vende ou decide usando texto;
 - está cansado de começar cada conversa do zero;
 - quer organizar uma primeira estrutura sem virar projeto de meses;
-- consegue reservar umas seis horas pra construir.
+- consegue reservar aproximadamente seis horas e participar ativamente da construção.
 
 **Não é pra você que:**
 
@@ -106,55 +119,43 @@ Ao terminar o Dia Um, você leva:
 
 ## Entre no Dia Um
 
-**Um dia. Duas sessões. Uma tarefa real funcionando.**
+Monte hoje a primeira versão do seu sistema de IA.
 
 Você recebe:
 
+- duas sessões práticas;
 - os quatro blocos guiados;
-- todos os prompts usados;
-- os arquivos e modelos do processo;
-- a estrutura do sistema;
-- o roteiro pra criar a próxima tarefa;
-- garantia incondicional de sete dias.
+- prompts e modelos do processo;
+- estrutura inicial do sistema;
+- roteiro para criar a próxima tarefa;
+- garantia de sete dias.
 
-### Investimento
-
-# R$97
+### R$97
 
 Pagamento único.
 
-<a class="cta" href="[LINK_CHECKOUT]">Quero participar do Dia Um →</a>
+<a class="cta" href="[LINK_CHECKOUT]">Quero montar minha primeira versão →</a>
 
 <p class="cta-note">O acesso e as instruções chegam no e-mail informado no checkout.</p>
 
 ## Garantia de sete dias
 
-Participe do Dia Um. Se perceber que a experiência não é pra você, peça o reembolso dentro de sete dias. Sem justificativa. O risco da primeira decisão fica comigo.
+Participe do Dia Um. Se perceber que a experiência não é adequada para você, solicite o reembolso dentro de sete dias. Sem justificativa.
 
 ## Perguntas que decidem a compra
 
-**Quando acontece, e é ao vivo?** [PREENCHER: data, horário e formato (ao vivo / gravado).]
-
-**É individual ou em turma?** [PREENCHER.]
-
-**Preciso pagar alguma ferramenta (ChatGPT Plus, Claude Pro)?** [PREENCHER: o que é necessário.]
-
-**Preciso instalar programas ou usar GitHub?** [PREENCHER: o repositório usa GitHub; dizer se cria conta no dia e se é guiado.]
-
-**Funciona no celular? Recebo gravação? Tem suporte depois?** [PREENCHER.]
-
-**Preciso saber programar?** Não. Você segue instruções guiadas e trabalha com modelos prontos. Em alguns momentos, pode copiar comandos ou criar conta em alguma ferramenta. Cada etapa é explicada.
+**Preciso saber programar?** Não. Você segue instruções guiadas e trabalha com modelos prontos. Cada etapa é explicada.
 
 **Quanto tempo preciso reservar?** Aproximadamente seis horas, em duas sessões no mesmo dia.
 
-**Meu conteúdo vai treinar alguma ferramenta?** [PREENCHER: política de dados.]
+**Meus dados ou meu conteúdo vão treinar alguma ferramenta?** <span class="tbd">a confirmar (política de dados)</span>
 
-## Hoje dá pra parar de usar a IA solta
+## Pare de reconstruir tudo a cada conversa
 
-Você já usa IA. Hoje dá pra começar a usar como sistema, o seu. Em um dia.
+Monte hoje a primeira versão do seu sistema de IA e termine o dia com uma tarefa real funcionando do seu jeito.
 
-<a class="cta" href="[LINK_CHECKOUT]">Quero montar meu sistema →</a>
+<a class="cta" href="[LINK_CHECKOUT]">Quero montar minha primeira versão →</a>
 
 ---
 
-O Dia Um é um produto completo. Se você decidir avançar depois pro **Prompt Zero**, o programa onde cada peça vira sistema completo, os R$97 viram crédito integral.
+O Dia Um é um produto completo. Caso você decida avançar depois para o **Prompt Zero**, os R$97 pagos aqui viram crédito integral.

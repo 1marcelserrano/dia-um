@@ -144,6 +144,15 @@ li::marker{color:var(--terra)}
 .cta:hover{background:var(--terra-deep);transform:translateY(1px);box-shadow:0 1px 0 var(--terra-deep)}
 .cta-note{font-size:.92rem;color:var(--muted);margin:.2rem 0 1.2rem}
 
+/* ---------- campos a confirmar / slot de prova ---------- */
+.tbd{font-style:italic;color:var(--muted);opacity:.85}
+.proof-slot{
+  margin:1.2rem 0;padding:2rem 1.2rem;text-align:center;
+  border:1.5px dashed var(--line);border-radius:.6rem;
+  background:var(--paper-2);color:var(--muted);
+  font-size:.92rem;line-height:1.5;
+}
+
 /* ---------- placeholder (info comercial / prova a inserir) ---------- */
 .placeholder{
   margin:1.5rem 0;padding:1rem 1.2rem;
