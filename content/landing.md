@@ -14,24 +14,35 @@ Você já usa ChatGPT, Claude ou Gemini, mas ainda depende de conversas soltas, 
 
 No Dia Um, você organiza sua voz, seus critérios e uma tarefa recorrente numa estrutura própria que continua funcionando depois que a conversa termina.
 
-- sua voz e seus critérios registrados;
-- uma tarefa recorrente configurada;
-- seus arquivos organizados;
-- uma rotina de atualização funcionando.
+No fim do dia, quatro coisas existem que hoje não existem:
+
+- **Sua voz instalada.** A IA escreve como você, com seus critérios registrados em arquivos seus.
+- **Sua primeira skill rodando.** Uma tarefa que você repete toda semana, congelada num método que dispara sozinho.
+- **Seu repo vivo.** Tudo guardado num repositório GitHub seu, com histórico e backup. Seu sistema sobrevive a qualquer troca de ferramenta.
+- **o Sincronizador no ar.** Uma rotina que mantém seus arquivos em dia sozinha, todo dia, no horário que você marcar.
 
 **Um dia. Duas sessões. Uma tarefa real funcionando.**
 
 <a class="cta" href="https://pay.herospark.com/dia-um-a-primeira-versao-da-sua-ia-pro-trabalho-528144">Quero montar minha primeira versão →</a>
 
-## Uma boa resposta não é *um sistema*
+## Uma boa resposta ainda não é um sistema
 
 Você consegue um texto bom, ajusta algumas palavras e segue o trabalho.
 
 Quando precisa repetir a tarefa, procura o prompt, tenta lembrar o contexto e reconstrói tudo.
 
-O problema não é saber pedir. É que sua voz, seus critérios e seu processo ainda não estão organizados para serem usados de novo.
+Saber pedir você já sabe. O que falta: sua voz, seus critérios e seu processo organizados pra serem usados de novo, sem reconstrução.
 
 O Dia Um transforma uma dessas tarefas soltas na primeira peça do seu sistema.
+
+## Por que este formato não existe em outro lugar
+
+Procuramos. Os cursos gringos que ensinam "sistema pessoal de IA" cobram de US$500 a US$2.000, duram de 3 a 5 semanas, e param antes das duas peças que mais importam:
+
+1. **Nenhum guarda seu sistema num repositório com versionamento.** Ficam em pastas soltas. Aqui, seu contexto vive num repo GitHub seu: histórico, backup, portabilidade entre modelos.
+2. **Nenhum te entrega uma rotina agendada rodando no dia 1.** Aqui você sai com o Sincronizador no ar: seu sistema trabalha enquanto você dorme, desde a primeira noite.
+
+E nenhum existe em português, pensado pra quem trabalha no Brasil.
 
 ## O que "sistema" quer dizer aqui
 
@@ -39,123 +50,68 @@ Nada de software complexo. Um sistema, no Dia Um, é um conjunto organizado com 
 
 É essa primeira estrutura que você monta durante o Dia Um.
 
-## O que é o Dia Um
+## Pra quem é
 
-Uma experiência prática de aproximadamente seis horas, dividida em duas sessões. Você trabalha sobre uma tarefa real do seu dia a dia e constrói enquanto acompanha.
+- Você já usa ChatGPT ou Claude toda semana, mas cada conversa começa do zero.
+- Você escreve, vende, atende, ensina ou gerencia, e repete as mesmas tarefas de texto toda semana.
+- Você quer que a IA trabalhe do seu jeito, com o seu tom, sem virar programador pra isso.
 
-- **Formato:** <span class="tbd">a confirmar</span>
-- **Modalidade:** <span class="tbd">a confirmar</span>
-- **Data e horário:** <span class="tbd">a confirmar</span>
-- **Ferramentas necessárias:** <span class="tbd">a confirmar</span>
-- **Acesso posterior:** <span class="tbd">a confirmar</span>
-- **Suporte:** <span class="tbd">a confirmar</span>
+## Pra quem não é
+
+- Você nunca usou uma IA de texto. Comece pelo uso livre por duas semanas e volte.
+- Você procura automação avançada de código, agentes complexos ou integração com sistemas da empresa. Isso vem depois, nas 4 semanas do MS CREATIVE KEYS.
+- Você quer assistir passivamente. O Dia Um é mão na massa: sem executar, não há entrega.
 
 ## Como o dia funciona
 
-**Primeira sessão.** Você escolhe uma tarefa real, reúne exemplos do seu trabalho e registra sua voz, seu contexto e seus critérios. Ainda nessa sessão, executa a primeira versão e compara o resultado com uma resposta genérica.
+**Antes do dia (20 min).** Você recebe o checklist de preparação: contas criadas, ferramentas instaladas, seus textos separados. O dia é pra construir, sem perder tempo com cadastro.
 
-**Intervalo.** Você organiza os materiais que serão usados na segunda parte.
+**Primeira sessão (~3,5h).** Você dispara uma tarefa real e vê o primeiro rascunho usável em 30 minutos. Depois instala sua voz (a IA passa a escrever como você) e congela seu primeiro método numa skill que dispara sozinha.
 
-**Segunda sessão.** Você leva o sistema para um espaço próprio, configura a rotina de atualização e executa de novo a tarefa escolhida.
+**Intervalo.** Você respira. O sistema já pensa como você.
 
-**No final,** você terá uma base de voz e contexto, uma tarefa estruturada, os arquivos organizados, uma rotina de atualização e um resultado real produzido pelo sistema.
+**Segunda sessão (~2,5h).** Você tira o sistema de dentro do chat: repo GitHub seu, com tudo dentro, e o Sincronizador agendado mantendo os arquivos em dia sem você. Fecha rodando uma tarefa real de ponta a ponta.
 
-## O que você constrói
+**o Pulso.** Três batidas medem o dia: tarefa real rodada, skill criada, rotina no ar. 3/3 e você recebe o crachá DIA-UM, com seu nome, pra baixar e publicar.
 
-### 1. Sua voz registrada
-Você organiza exemplos, escolhas de linguagem e critérios para reduzir respostas genéricas e retrabalho.
+- **Formato:** gravado, com acesso imediato. Comprou, começou. Você monta no seu ritmo, no dia que marcar na sua agenda.
+- **Modalidade:** online, via Skool (classroom + comunidade).
+- **Ferramentas necessárias:** computador + conta Claude em plano pago (a partir de US$20/mês) + conta GitHub gratuita. O checklist de preparação guia tudo.
+- **Acesso posterior:** gravações e materiais por 12 meses + comunidade.
+- **Suporte:** comunidade no Skool + canal direto com a equipe nos primeiros 30 dias.
 
-### 2. Uma tarefa que pode ser repetida
-Você transforma uma atividade recorrente numa skill: uma instrução reutilizável que faz a IA executar essa tarefa do seu jeito.
+## O que você leva além do dia
 
-### 3. Um lugar próprio para o sistema
-Você organiza arquivos e instruções num repositório com histórico e backup.
+- **Os 4 esqueletos prontos:** about-me, writing-style, SKILL.md e a instrução completa do Sincronizador. Copiar, preencher, rodar.
+- **O crachá DIA-UM:** artefato de conclusão com seu nome, pronto pra publicar no LinkedIn.
+- **Comunidade no Skool:** onde as três batidas do seu Pulso ficam públicas e você vê o sistema dos outros rodando.
+- **Bônus · Rota de 30 dias:** dois encontros de acompanhamento, no dia 7 e no dia 30, pra manter o sistema rodando depois do primeiro impulso.
+- **Bônus · Pack de esqueletos extras:** skills prontas além das quatro do dia, pra copiar e adaptar ao seu trabalho.
 
-### 4. Uma rotina que mantém tudo atualizado
-Você configura o Sincronizador para atualizar os arquivos essenciais sem precisar copiar tudo de novo.
+## Garantia
 
-No fim, você roda uma tarefa real usando o que acabou de construir. Essa é a prova de que a primeira versão está funcionando.
+Participe do dia inteiro. Se não sair com seu sistema rodando, você escreve uma linha e devolvemos 100% em até 7 dias. Sem formulário, sem interrogatório.
 
-## Você produz antes de terminar de configurar
+## Perguntas diretas
 
-Nos primeiros quinze minutos, você executa uma tarefa com um prompt guiado e gera a primeira saída concreta. Esse resultado vira a base de comparação para o restante do dia.
+**Preciso saber programar?** Não. Você não toca no terminal. Tudo passa por botão e por texto.
 
-## A diferença, lado a lado
+**Funciona só com Claude?** O dia é ensinado em Claude. Os arquivos que você cria são markdown puro: portáveis pra qualquer modelo. O método sobrevive à troca de ferramenta.
 
-**Antes.** Uma resposta correta, mas genérica, sem memória dos critérios e sem relação clara com a sua voz.
+**E se eu travar num bloco?** Todo bloco tem Plano B documentado. O dia foi desenhado pra ninguém terminar pela metade.
 
-**Depois.** A mesma tarefa executada usando exemplos, contexto e critérios organizados durante o Dia Um.
+**Seis horas de vídeo?** Seis horas de construção, com pausas. Blocos curtos de explicação, o resto é você montando com acompanhamento.
 
-<div class="proof-slot">captura de tela real (antes × depois) ou vídeo curto da tarefa entrando, o sistema consultando os arquivos e o resultado aparecendo</div>
+**O que o Dia Um não cobre?** Fundamentos de IA a fundo, pipeline de voz completo, avaliação de prompts, MCP e o catálogo de rotinas. Isso vive nas 4 semanas do MS CREATIVE KEYS. O Dia Um coloca sua v1 no ar; as semanas dão profundidade.
 
-## O que fica com você
+**Quanto custa e dá pra parcelar?** Valor e parcelamento no cartão aparecem no checkout. O botão desta página leva direto pra lá.
 
-- base de voz e contexto;
-- primeira tarefa estruturada;
-- prompts e modelos utilizados;
-- repositório organizado;
-- rotina de atualização;
-- roteiro para criar a próxima tarefa;
-- material do Dia Um;
-- resultado produzido durante a experiência.
+## O ponto de partida
 
-## Pra quem é, e pra quem não é
+Seu sistema nasce vivo: voz instalada, uma skill, um repo, uma rotina batendo todo dia. A profundidade vem depois, em cima do que já roda.
 
-**É pra você que:**
-
-- já usa alguma ferramenta de IA no trabalho;
-- escreve, cria, atende, vende ou decide usando texto;
-- está cansado de começar cada conversa do zero;
-- quer organizar uma primeira estrutura sem virar projeto de meses;
-- consegue reservar aproximadamente seis horas e participar ativamente da construção.
-
-**Não é pra você que:**
-
-- procura só uma lista de prompts;
-- espera automação completa sem participar da configuração;
-- quer desenvolver um software complexo em um dia;
-- não pretende usar uma tarefa real durante o processo;
-- procura formação técnica aprofundada em IA.
-
-## Entre no Dia Um
-
-Monte hoje a primeira versão do seu sistema de IA.
-
-Você recebe:
-
-- duas sessões práticas;
-- os quatro blocos guiados;
-- prompts e modelos do processo;
-- estrutura inicial do sistema;
-- roteiro para criar a próxima tarefa;
-- garantia de sete dias.
-
-### R$97,99
-
-Pagamento único.
+**Um dia. Duas sessões. Sua v1 no ar.**
 
 <a class="cta" href="https://pay.herospark.com/dia-um-a-primeira-versao-da-sua-ia-pro-trabalho-528144">Quero montar minha primeira versão →</a>
 
-<p class="cta-note">O acesso e as instruções chegam no e-mail informado no checkout.</p>
-
-## Garantia de sete dias
-
-Participe do Dia Um. Se perceber que a experiência não é adequada para você, solicite o reembolso dentro de sete dias. Sem justificativa.
-
-## Perguntas que decidem a compra
-
-**Preciso saber programar?** Não. Você segue instruções guiadas e trabalha com modelos prontos. Cada etapa é explicada.
-
-**Quanto tempo preciso reservar?** Aproximadamente seis horas, em duas sessões no mesmo dia.
-
-**Meus dados ou meu conteúdo vão treinar alguma ferramenta?** <span class="tbd">a confirmar (política de dados)</span>
-
-## Pare de reconstruir tudo *a cada conversa*
-
-Monte hoje a primeira versão do seu sistema de IA e termine o dia com uma tarefa real funcionando do seu jeito.
-
-<a class="cta" href="https://pay.herospark.com/dia-um-a-primeira-versao-da-sua-ia-pro-trabalho-528144">Quero montar minha primeira versão →</a>
-
----
-
-O Dia Um é um produto completo. Caso você decida avançar depois para o **Prompt Zero**, os R$97,99 pagos aqui viram crédito integral.
+*Manda **DIA-UM** e entra.*
