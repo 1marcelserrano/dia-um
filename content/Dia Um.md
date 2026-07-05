@@ -88,4 +88,5 @@ Cada bloco fecha com um **exercício e um critério binário de "feito"** — pr
 Não mede "quão pronto você está". Mede o que você fez rodar. **o Pulso** bate em três: **tarefas reais rodadas** + **skills criadas** + **rotinas no ar**. Você marca cada batida ao vivo no tracker → [o Pulso](pulso.html), de 0/3 a 3/3. Um dia bem feito fecha com pelo menos 1 em cada. Não há nota de "completo". Há "está vivo e crescendo".
 
 > [!tip] Sua v1 está no ar — e o próximo passo
+> Amanhã, quando o trabalho de verdade chegar, abre o [Pack · Prompts de Bancada](pack-prompts.html): 10 prompts prontos, um pra cada tarefa que você repete toda semana, calibrados pra rodar com a sua voz carregada.
 > Daqui você evolui pra sempre. **Prompt Zero** é onde cada peça que você pôs no ar hoje vira fundamento: 4 semanas guiadas, 1 ano de acesso, em cima do que já roda. E o **valor que você pagou no Dia Um vira crédito no Prompt Zero** — a porta de entrada abate no programa, você não paga duas vezes.

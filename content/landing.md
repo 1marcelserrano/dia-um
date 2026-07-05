@@ -82,11 +82,13 @@ Nada de software complexo. Um sistema, no Dia Um, é um conjunto organizado com 
 
 ## O que você leva além do dia
 
-- **Os 4 esqueletos prontos:** about-me, writing-style, SKILL.md e a instrução completa do Sincronizador. Copiar, preencher, rodar.
-- **O crachá DIA-UM:** artefato de conclusão com seu nome, pronto pra publicar no LinkedIn.
-- **Comunidade no Skool:** onde as três batidas do seu Pulso ficam públicas e você vê o sistema dos outros rodando.
-- **Bônus · Rota de 30 dias:** dois encontros de acompanhamento, no dia 7 e no dia 30, pra manter o sistema rodando depois do primeiro impulso.
-- **Bônus · Pack de esqueletos extras:** skills prontas além das quatro do dia, pra copiar e adaptar ao seu trabalho.
+Cinco peças, todas com nome. Nenhuma é "acesso a conteúdo": todas entram no seu repo e ficam suas.
+
+- **Os 4 Esqueletos.** `about-me`, `writing-style`, `SKILL.md` e a instrução completa do Sincronizador. Copiar, preencher, rodar.
+- **Pack de 10 Prompts de Bancada.** Um prompt pronto pra cada tarefa que você repete: e-mail difícil, post de ideia solta, resumo de reunião, proposta, resposta a cliente insatisfeito, repurpose 1→3, revisão final, preparação de reunião, descrição de oferta, follow-up. Todos calibrados pra rodar com a sua voz carregada.
+- **10 Skills de Prateleira.** Esqueletos preenchidos de skills além da que você constrói no dia, pra copiar e adaptar: e-mail difícil, resumo de reunião, legenda, proposta, relatório recorrente, follow-up, briefing de pauta, resposta a cliente, repurpose e revisão final.
+- **O crachá DIA-UM.** Artefato de conclusão com seu nome, pronto pra publicar no LinkedIn.
+- **Comunidade no Skool + Rota de 30 dias.** As três batidas do seu Pulso ficam públicas, e dois encontros de acompanhamento (dia 7 e dia 30) mantêm o sistema rodando depois do primeiro impulso.
 
 ## Garantia
 

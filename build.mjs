@@ -27,6 +27,7 @@ const PRIVATE_PAGES = [
   { file: 'Bloco 3 · Seu repo vivo.md', out: 'bloco-3.html', kind: 'prompt' },
   { file: 'Bloco 4 · o Sincronizador.md', out: 'bloco-4.html', kind: 'prompt' },
   { file: 'o Pulso.md', out: 'pulso.html', kind: 'prompt' },
+  { file: 'Pack · Prompts de Bancada.md', out: 'pack-prompts.html', kind: 'prompt' },
 ];
 
 function stripFrontmatter(md) {
