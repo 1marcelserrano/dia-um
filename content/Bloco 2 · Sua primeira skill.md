@@ -127,6 +127,21 @@ A skill instalou mas não ativou sozinha no teste? Não é beco sem saída. Cheq
 
 ---
 
+## Eval de 10 minutos — desconfie antes de confiar
+
+A skill instalou e disparou. Falta a pergunta que separa "instalei" de "confio": ela se comporta quando o input não é perfeito? Três casos, 10 minutos:
+
+1. **O típico** — o input real de sempre. Régua: o output bate com o formato que você declarou?
+2. **O curto demais** — 1 linha vaga, sem dados. Régua: ela PEDE o que falta (como seus casos de borda mandam) ou inventa pra parecer útil?
+3. **O fora de escopo** — um pedido da sua seção "Quando NÃO se aplica". Régua: ela recusa e aponta o caminho certo, ou obedece calada?
+
+Anote os 3 resultados. Passou nos 3: skill de confiança. Falhou no 2 ou no 3: o conserto quase sempre mora nos **casos de borda** ou na **description** — 1 frase resolve. Rode o caso que falhou de novo depois do ajuste.
+
+> [!tip] Quando tiver tempo
+> A eval completa — mais casos, documentada em `evals/` no seu repo — é o capstone da Semana 03. Esta versão de 10 minutos é o reflexo mínimo: nunca confie em skill que você ainda não viu falhar.
+
+---
+
 ## Exercício — feito quando
 
 **Faça:** preencha o `SKILL.md` de um candidato seu, instale (CUSTOMIZE → SKILLS → Upload) e dispare num chat novo.
@@ -134,8 +149,3 @@ A skill instalou mas não ativou sozinha no teste? Não é beco sem saída. Cheq
 **Feito quando:** a skill **ativou sozinha** com um pedido natural (sem você dizer "usa a skill") **e** o output **bate com o formato** que você declarou. Os dois, não um só. Se ativou mas o formato fugiu, ajuste o procedimento. Se o formato bate mas só dispara na marra, vale como feito hoje (veja o Plano B) e o gatilho fica de ajuste pra depois.
 
 → Marque a **segunda batida** no [o Pulso](pulso.html).
-
----
-
-> [!tip] Quando tiver tempo
-> O capstone da Semana 03 soma a **eval** — testar a skill com 3+ casos antes de confiar nela: Exercício Capstone da Semana 03.

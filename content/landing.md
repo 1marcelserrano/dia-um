@@ -92,7 +92,7 @@ Nada de software complexo. Um sistema, no Dia Um, é um conjunto organizado com 
 
 ## O que você leva além do dia
 
-Sete peças, todas com nome. Nenhuma é "acesso a conteúdo": todas entram no seu repo e ficam suas.
+Você não leva peças soltas: leva **o Kit de Partida** — sete componentes, todos com nome. Nenhum é "acesso a conteúdo": todos entram no seu repo e ficam seus.
 
 - **Os 4 Esqueletos.** `about-me`, `writing-style`, `SKILL.md` e a instrução completa do Sincronizador. Copiar, preencher, rodar.
 - **Pack de 10 Prompts de Bancada.** Um prompt pronto pra cada tarefa que você repete: e-mail difícil, post de ideia solta, resumo de reunião, proposta, resposta a cliente insatisfeito, repurpose 1→3, revisão final, preparação de reunião, descrição de oferta, follow-up. Todos calibrados pra rodar com a sua voz carregada.

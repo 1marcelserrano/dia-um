@@ -63,7 +63,7 @@ flowchart LR
 
 → Prompts: [[Prompts/Bloco 1 · Claude na sua voz|Bloco 1 · Claude na sua voz]]
 
-**Bloco 2 — Sua primeira skill · 120 min.** Skill = receita pré-pronta que o Claude ativa sozinho. Liste 5+ tarefas que você já fez 3+ vezes; a de padrão mais claro é a de hoje. Preencha o esqueleto: description (o roteador), procedimento acionável, casos de borda. Instale e teste num chat novo — segunda batida no Pulso.
+**Bloco 2 — Sua primeira skill · 130 min.** Skill = receita pré-pronta que o Claude ativa sozinho. Liste 5+ tarefas que você já fez 3+ vezes; a de padrão mais claro é a de hoje. Preencha o esqueleto: description (o roteador), procedimento acionável, casos de borda. Instale e teste num chat novo — segunda batida no Pulso.
 
 → Prompts: [[Prompts/Bloco 2 · Sua primeira skill|Bloco 2 · Sua primeira skill]]
 
