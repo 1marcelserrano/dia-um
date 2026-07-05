@@ -38,7 +38,7 @@
     font-family:'Fraunces',Georgia,serif;
     font-variation-settings:"opsz" 144,"wght" 600;
     font-weight:600;font-size:104px;line-height:.96;letter-spacing:-.01em;
-    color:#8f8a7e;max-width:980px;
+    color:#CFC8B8;max-width:980px;
   }
   .headline em{color:#B4C636;font-style:italic;font-variation-settings:"opsz" 144,"wght" 600}
   .foot{display:flex;flex-direction:column;gap:22px}
@@ -53,22 +53,34 @@
   .ms-mark{height:36px;width:auto;display:block}
   .ms-mark .d{fill:#A89D80}
   .wordmark{color:#A89D80;font-weight:500;font-size:15px;letter-spacing:.18em;text-transform:uppercase}
+  .top{display:flex;justify-content:space-between;align-items:flex-start;gap:24px}
+  .chip{
+    border:1px solid rgba(180,198,54,.55);color:#B4C636;
+    font-weight:500;font-size:17px;letter-spacing:.18em;text-transform:uppercase;
+    padding:10px 20px;border-radius:999px;white-space:nowrap;
+  }
+  .pulso{display:flex;flex-direction:column;align-items:flex-end;gap:10px}
+  .pulso .track{
+    font-weight:500;font-size:30px;letter-spacing:.14em;color:#B4C636;white-space:nowrap;
+  }
+  .pulso .parts{color:#C2BAAB;font-size:15px;letter-spacing:.12em;white-space:nowrap}
 </style></head>
 <body>
   <div class="card"><div class="inner">
-    <div>
-      <div class="kicker">Dia Um</div>
-      <div class="rule"></div>
+    <div class="top">
+      <div>
+        <div class="kicker">Dia Um</div>
+        <div class="rule"></div>
+      </div>
+      <div class="chip">1 dia &middot; 2 sessões</div>
     </div>
     <h1 class="headline">Sua IA pro trabalho,<br><em>funcionando.</em></h1>
     <div class="foot">
       <div class="foot-row">
-        <div class="label">1 Dia &middot; 2 Sessões</div>
-        <div class="pieces">
-          <div class="piece"><svg viewBox="0 0 24 24" fill="none" stroke="#B4C636" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M16 13H8"/><path d="M16 17H8"/><path d="M10 9H8"/></svg><span>voz</span></div>
-          <div class="piece"><svg viewBox="0 0 24 24" fill="none" stroke="#B4C636" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M16 13H8"/><path d="M16 17H8"/><path d="M10 9H8"/></svg><span>skill</span></div>
-          <div class="piece"><svg viewBox="0 0 24 24" fill="none" stroke="#B4C636" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg><span>repo</span></div>
-          <div class="piece"><svg viewBox="0 0 24 24" fill="none" stroke="#B4C636" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M23 4v6h-6"/><path d="M1 20v-6h6"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10"/><path d="M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg><span>rotina</span></div>
+        <div class="label">Sua v1 no ar até o fim do dia</div>
+        <div class="pulso">
+          <div class="track">o Pulso&nbsp;&nbsp;[ &#9679; &#9679; &#9679; ]&nbsp;&nbsp;3/3</div>
+          <div class="parts">voz &middot; skill &middot; repo &middot; rotina</div>
         </div>
       </div>
       <div class="hr"></div>

@@ -5,64 +5,69 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
   *{margin:0;padding:0;box-sizing:border-box}
-  html,body{width:417px;height:720px;overflow:hidden}
+  html,body{width:1200px;height:1200px;overflow:hidden}
   .card{
-    position:relative;width:417px;height:720px;
-    background:linear-gradient(160deg,#0A0C10 0%,#12141A 100%);
-    padding:46px 40px;display:flex;flex-direction:column;
+    position:relative;width:1200px;height:1200px;
+    background:linear-gradient(135deg,#0A0C10 0%,#12141A 100%);
+    padding:96px;display:flex;flex-direction:column;
     font-family:'IBM Plex Mono',monospace;
   }
+  /* grid overlay */
   .card::before{
     content:"";position:absolute;inset:0;pointer-events:none;
     background-image:
       linear-gradient(to right,rgba(255,255,255,.025) 1px,transparent 1px),
       linear-gradient(to bottom,rgba(255,255,255,.025) 1px,transparent 1px);
-    background-size:46px 46px;
+    background-size:54px 54px;
   }
+  /* prominent rules echoing the card */
   .card::after{
     content:"";position:absolute;inset:0;pointer-events:none;
-    background-image:linear-gradient(to bottom,rgba(255,255,255,.045) 1px,transparent 1px);
-    background-position:0 322px;background-size:100% 322px;background-repeat:no-repeat;
+    background-image:
+      linear-gradient(to right,rgba(255,255,255,.05) 1px,transparent 1px),
+      linear-gradient(to bottom,rgba(255,255,255,.045) 1px,transparent 1px);
+    background-position:432px 0,0 810px;
+    background-size:432px 100%,100% 810px;
+    background-repeat:no-repeat;
   }
   .inner{position:relative;z-index:2;display:flex;flex-direction:column;height:100%}
-  .kicker{color:#B4C636;font-weight:500;font-size:14px;letter-spacing:.22em;text-transform:uppercase}
-  .rule{width:52px;height:3px;background:#B4C636;margin-top:14px}
+  .kicker{color:#B4C636;font-weight:500;font-size:20px;letter-spacing:.22em;text-transform:uppercase}
+  .rule{width:72px;height:3px;background:#B4C636;margin-top:18px}
   .headline{
     margin-top:auto;margin-bottom:auto;
     font-family:'Fraunces',Georgia,serif;
     font-variation-settings:"opsz" 144,"wght" 600;
-    font-weight:600;font-size:58px;line-height:.97;letter-spacing:-.01em;
-    color:#CFC8B8;
+    font-weight:600;font-size:112px;line-height:.96;letter-spacing:-.01em;
+    color:#CFC8B8;max-width:1008px;
   }
   .headline em{color:#B4C636;font-style:italic;font-variation-settings:"opsz" 144,"wght" 600}
-  .foot{display:flex;flex-direction:column;gap:16px}
-  .label{color:#B4C636;font-weight:500;font-size:13px;letter-spacing:.2em;text-transform:uppercase}
-  .pieces{display:flex;gap:24px;margin-bottom:4px}
-  .piece{display:flex;flex-direction:column;align-items:center;gap:8px}
-  .piece svg{width:23px;height:23px;display:block}
-  .piece span{color:#C2BAAB;font-size:12px;letter-spacing:.05em}
+  .foot{display:flex;flex-direction:column;gap:26px}
+  .label{color:#B4C636;font-weight:500;font-size:20px;letter-spacing:.22em;text-transform:uppercase}
   .hr{height:1px;background:rgba(255,255,255,.08);width:100%}
-  .sign{display:flex;align-items:center;gap:12px}
-  .ms-mark{height:28px;width:auto;display:block}
+  .sign{display:flex;align-items:center;gap:16px}
+  .ms-mark{height:40px;width:auto;display:block}
   .ms-mark .d{fill:#A89D80}
-  .wordmark{color:#A89D80;font-weight:500;font-size:11px;letter-spacing:.16em;text-transform:uppercase}
+  .wordmark{color:#A89D80;font-weight:500;font-size:16px;letter-spacing:.18em;text-transform:uppercase}
+  .top{display:flex;justify-content:space-between;align-items:flex-start;gap:24px}
   .chip{
     border:1px solid rgba(180,198,54,.55);color:#B4C636;
-    font-weight:500;font-size:14px;letter-spacing:.18em;text-transform:uppercase;
-    padding:8px 16px;border-radius:999px;white-space:nowrap;
+    font-weight:500;font-size:20px;letter-spacing:.18em;text-transform:uppercase;
+    padding:12px 24px;border-radius:999px;white-space:nowrap;
   }
-  .pulso{display:flex;flex-direction:column;align-items:flex-start;gap:8px}
+  .pulso{display:flex;flex-direction:column;align-items:flex-start;gap:12px}
   .pulso .track{
-    font-weight:500;font-size:22px;letter-spacing:.05em;color:#B4C636;white-space:nowrap;
+    font-weight:500;font-size:40px;letter-spacing:.14em;color:#B4C636;white-space:nowrap;
   }
-  .pulso .parts{color:#C2BAAB;font-size:12px;letter-spacing:.08em;white-space:nowrap}
+  .pulso .parts{color:#C2BAAB;font-size:18px;letter-spacing:.12em;white-space:nowrap}
 </style></head>
 <body>
   <div class="card"><div class="inner">
-    <div>
-      <div class="kicker">Dia Um</div>
-      <div class="rule"></div>
-      <div class="chip" style="display:inline-block;margin-top:22px">1 dia &middot; 2 sessões</div>
+    <div class="top">
+      <div>
+        <div class="kicker">Dia Um</div>
+        <div class="rule"></div>
+      </div>
+      <div class="chip">1 dia &middot; 2 sessões</div>
     </div>
     <h1 class="headline">Sua IA pro trabalho,<br><em>funcionando.</em></h1>
     <div class="foot">
