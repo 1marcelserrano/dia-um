@@ -99,7 +99,7 @@ Sete peças, todas com nome. Nenhuma é "acesso a conteúdo": todas entram no se
 - **10 Skills de Prateleira.** Esqueletos preenchidos de skills além da que você constrói no dia, pra copiar e adaptar: e-mail difícil, resumo de reunião, legenda, proposta, relatório recorrente, follow-up, briefing de pauta, resposta a cliente, repurpose e revisão final.
 - **Cardápio de 3 Rotinas.** Além do Sincronizador: o Radar de fontes, a Revisão do dia e o Radar de concorrência. Instruções prontas pra agendar; você escolhe a sua.
 - **Ritual do Dia Dois.** Quinze minutos na manhã seguinte que provam que o sistema trabalha sem você. Com checklist e a batida bônus do Pulso.
-- **O crachá DIA-UM.** Artefato de conclusão com seu nome, pronto pra publicar no LinkedIn.
+- **O crachá DIA-UM.** Artefato de conclusão com seu nome. E o post que o acompanha sai do seu próprio sistema, na sua voz: a primeira prova pública de que ele funciona.
 - **Comunidade no Skool + Rota de 30 dias.** As três batidas do seu Pulso ficam públicas, e dois encontros de acompanhamento (dia 7 e dia 30) mantêm o sistema rodando depois do primeiro impulso.
 
 ## Garantia

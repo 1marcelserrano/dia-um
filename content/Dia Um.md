@@ -77,7 +77,7 @@ flowchart LR
 
 → Prompts: [[Prompts/Bloco 4 · o Sincronizador|Bloco 4 · o Sincronizador]]
 
-**Fecho · 20 min.** Rode uma tarefa real ponta a ponta pelo sistema: contexto carregado → skill ativada → resultado na sua voz. Marque **o Pulso** em 3/3 → [o Pulso](pulso.html). Está vivo.
+**Fecho · 20 min.** A última tarefa do dia é meta: gere o seu **post de conclusão** pelo próprio sistema que você acabou de montar — contexto carregado, skill se couber, resultado na sua voz. Publique com o crachá DIA-UM. O post prova o sistema, e o sistema assina o post. Marque **o Pulso** em 3/3 → [o Pulso](pulso.html). Está vivo.
 
 Cada bloco fecha com um **exercício e um critério binário de "feito"** — pra você saber que rodou de verdade, não só que entendeu.
 

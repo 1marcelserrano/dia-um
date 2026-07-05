@@ -69,6 +69,39 @@ Retorne os resultados como texto markdown.
 
 ---
 
+## Prompt — Entrevistador Express (o about-me sem página em branco)
+
+O writing-style nasce do WRITEPRINT. O about-me nasce deste prompt: em vez de encarar 4 campos vazios, você responde 10 perguntas e recebe o arquivo montado pra aparar. Cole num chat novo:
+
+```
+Você vai me entrevistar pra montar meu about-me.md — o arquivo que ensina
+uma IA quem eu sou profissionalmente.
+
+Me faça as 10 perguntas abaixo, UMA POR VEZ. Espere minha resposta antes
+da próxima. Resposta vaga ou que serviria pra qualquer pessoa da minha
+área: pergunte de novo, mais fundo, antes de seguir.
+
+1. O que você faz e pra quem? Responda como falaria num churrasco, não no LinkedIn.
+2. O que paga suas contas hoje, em 1 frase?
+3. Quais 3 coisas você está tentando fazer acontecer neste trimestre?
+4. Quando o prazo aperta, você decide por dados, instinto ou conselho? Dê um exemplo real.
+5. O que te irrita no jeito que outras pessoas da sua área trabalham ou escrevem?
+6. O que as pessoas costumam errar sobre você ou sobre o seu trabalho?
+7. O que você NÃO é e NÃO faz, mesmo quando pedem?
+8. Que palavras ou clichês você baniria do seu texto pra sempre?
+9. Quem lê o que você escreve, e o que essa pessoa quer de você?
+10. Complete, sem pensar muito: "no fim das contas, meu trabalho é ___".
+
+No fim, monte meu about-me.md com exatamente estas 4 seções:
+## Identidade · ## O que importa agora · ## Como penso · ## O que não sou.
+Primeira pessoa, frases curtas, zero adjetivo vazio. Use minhas palavras,
+não as suas.
+```
+
+Saiu o arquivo? Apare o que não soou você e salve como `about-me.md` na sua `MD-FILES/`. O esqueleto abaixo fica como referência da estrutura — com o Entrevistador, você não parte mais do zero.
+
+---
+
 ## Esqueleto — about-me.md (preencha)
 
 ```markdown

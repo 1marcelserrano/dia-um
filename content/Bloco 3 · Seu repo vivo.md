@@ -73,6 +73,8 @@ md-files/
 └── _archive/          versões antigas + projetos encerrados
 ```
 
+Essa árvore já vem pronta no template — com `prompts/` pro seu Pack de Bancada. Você não monta pasta: você preenche.
+
 ---
 
 ## 2. Regra do pulo do gato — cole no seu CLAUDE.md
@@ -122,7 +124,7 @@ Move o PACOTE pra dentro do meu repo, com segurança, nesta ordem:
 
 ## Exercício — feito quando
 
-**Faça:** crie o repo `md-files` (Private), clone no GitHub Desktop, copie tudo da sua `MD-FILES/` pra dentro, commit "Dia Um — setup inicial" e push.
+**Faça:** crie seu repo a partir do template: [github.com/1marcelserrano/md-files-template](https://github.com/1marcelserrano/md-files-template) → **Use this template** → **Create a new repository** → nome `md-files`, visibilidade **Private**. Clone no GitHub Desktop, copie o conteúdo da sua `MD-FILES/` por cima dos esqueletos (seu `about-me.md` e `writing-style.md` preenchidos substituem os vazios; sua skill entra em `skills/`), commit "Dia Um — setup inicial" e push.
 
 **Feito quando:** você **abre github.com no navegador e vê seu sistema lá** — o `about-me.md`, o `writing-style.md` e a pasta da sua skill, dentro do repo, na web. Não no seu computador: na nuvem. Se aparece lá, o push funcionou e você tem backup e histórico.
 

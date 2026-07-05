@@ -58,6 +58,25 @@ o Pulso   [ · · · ]   0/3
 > [!tip] Está vivo
 > **3/3.** Não é "você terminou um curso". É "sua v1 está no ar": voz instalada, skill rodando, repo vivo, rotina mantendo tudo em dia. Você está no Dia Um.
 
+### O post de conclusão — gerado pelo seu sistema
+
+A prova final não sou eu dizendo que funciona. É o seu sistema escrevendo em público. Num chat com seus dois arquivos de voz no contexto:
+
+```
+Meu sistema ficou pronto hoje. Gera meu post de conclusão, na minha voz
+(about-me.md e writing-style.md em contexto).
+
+- O que entrou no ar hoje: voz instalada, 1 skill ([o nome da sua]),
+  repo no GitHub, rotinas agendadas (o Sincronizador e o Radar)
+- Onde vai: LinkedIn
+- O que o post NÃO é: propaganda de curso. É registro do que eu construí.
+
+Curto, primeira pessoa, zero hype. Fecha com o que o sistema vai fazer
+por mim amanhã de manhã, sozinho.
+```
+
+Publique com o crachá. Se o post não soou você, o teste do Bloco 1 te diz onde apertar: a lista *Palavras que evito* e o *O que não sou*.
+
 ---
 
 ## A batida bônus — o sistema rodou sem você
