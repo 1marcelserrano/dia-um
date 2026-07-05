@@ -60,11 +60,24 @@ o Pulso   [ · · · ]   0/3
 
 ---
 
+## A batida bônus — o sistema rodou sem você
+
+As três batidas do dia são suas: você fez, você marcou. A quarta não. **A batida bônus só o sistema pode te dar** — ela acontece amanhã de manhã, quando o Sincronizador e o Radar rodarem sozinhos e você LER o que eles trouxeram.
+
+**Marca quando:** você completou o ritual do [Dia Dois](dia-dois.html) — leu os dois relatórios e rodou 1 prompt do Pack numa tarefa real.
+
+- [ ] **Batida bônus marcada** → `[ ● ● ● + ]  3/3 +`
+
+> [!tip] Por que ela existe
+> 3/3 prova que você montou o sistema. O **+** prova que ele trabalha sem você. É a diferença entre "terminei um curso" e "tenho um sistema" — e ela só aparece no dia seguinte.
+
+---
+
 ## O gancho — amanhã de manhã
 
 O Sincronizador não para quando você fecha o laptop. **Amanhã, no horário que você marcou (ex.: 6h), ele roda sozinho** — compara sua pasta com o repo, puxa o que é seguro, aponta o que precisa da sua decisão.
 
-**Volte amanhã e leia o relatório de drift.** É a primeira prova de que o sistema trabalha sem você na sessão. Se rodou na mão (Plano B), o gancho é o mesmo: amanhã de manhã, abra o chat, cole a instrução, veja o relatório. Um minuto. Esse é o ritmo que mantém o sistema vivo depois do Dia Um.
+**Volte amanhã e leia o relatório de drift.** É a primeira prova de que o sistema trabalha sem você na sessão. Se rodou na mão (Plano B), o gancho é o mesmo: amanhã de manhã, abra o chat, cole a instrução, veja o relatório. Um minuto. O roteiro completo dessa manhã, com a batida bônus no fim, está no [Dia Dois](dia-dois.html). Quinze minutos. É o ritmo que mantém o sistema vivo.
 
 > [!info] Vivo e crescendo
 > Marcou 3/3? Esse é o estado "vivo e crescendo". Não existe nota de "completo" — existe o Pulso batendo todo dia.

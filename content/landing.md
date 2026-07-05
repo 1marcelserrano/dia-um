@@ -82,11 +82,13 @@ Nada de software complexo. Um sistema, no Dia Um, é um conjunto organizado com 
 
 ## O que você leva além do dia
 
-Cinco peças, todas com nome. Nenhuma é "acesso a conteúdo": todas entram no seu repo e ficam suas.
+Sete peças, todas com nome. Nenhuma é "acesso a conteúdo": todas entram no seu repo e ficam suas.
 
 - **Os 4 Esqueletos.** `about-me`, `writing-style`, `SKILL.md` e a instrução completa do Sincronizador. Copiar, preencher, rodar.
 - **Pack de 10 Prompts de Bancada.** Um prompt pronto pra cada tarefa que você repete: e-mail difícil, post de ideia solta, resumo de reunião, proposta, resposta a cliente insatisfeito, repurpose 1→3, revisão final, preparação de reunião, descrição de oferta, follow-up. Todos calibrados pra rodar com a sua voz carregada.
 - **10 Skills de Prateleira.** Esqueletos preenchidos de skills além da que você constrói no dia, pra copiar e adaptar: e-mail difícil, resumo de reunião, legenda, proposta, relatório recorrente, follow-up, briefing de pauta, resposta a cliente, repurpose e revisão final.
+- **Cardápio de 3 Rotinas.** Além do Sincronizador: o Radar de fontes, a Revisão do dia e o Radar de concorrência. Instruções prontas pra agendar; você escolhe a sua.
+- **Ritual do Dia Dois.** Quinze minutos na manhã seguinte que provam que o sistema trabalha sem você. Com checklist e a batida bônus do Pulso.
 - **O crachá DIA-UM.** Artefato de conclusão com seu nome, pronto pra publicar no LinkedIn.
 - **Comunidade no Skool + Rota de 30 dias.** As três batidas do seu Pulso ficam públicas, e dois encontros de acompanhamento (dia 7 e dia 30) mantêm o sistema rodando depois do primeiro impulso.
 

@@ -28,6 +28,7 @@ const PRIVATE_PAGES = [
   { file: 'Bloco 4 · o Sincronizador.md', out: 'bloco-4.html', kind: 'prompt' },
   { file: 'o Pulso.md', out: 'pulso.html', kind: 'prompt' },
   { file: 'Pack · Prompts de Bancada.md', out: 'pack-prompts.html', kind: 'prompt' },
+  { file: 'Dia Dois.md', out: 'dia-dois.html', kind: 'prompt' },
 ];
 
 function stripFrontmatter(md) {
