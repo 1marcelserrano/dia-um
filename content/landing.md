@@ -37,12 +37,22 @@ O Dia Um transforma uma dessas tarefas soltas na primeira peça do seu sistema.
 
 ## Por que este formato não existe em outro lugar
 
-Procuramos. Os cursos gringos que ensinam "sistema pessoal de IA" cobram de US$500 a US$2.000, duram de 3 a 5 semanas, e param antes das duas peças que mais importam:
+Antes de montar o Dia Um, fomos ver o que se vende lá fora com promessa parecida. O quadro, na análise que fizemos em julho de 2026:
 
-1. **Nenhum guarda seu sistema num repositório com versionamento.** Ficam em pastas soltas. Aqui, seu contexto vive num repo GitHub seu: histórico, backup, portabilidade entre modelos.
-2. **Nenhum te entrega uma rotina agendada rodando no dia 1.** Aqui você sai com o Sincronizador no ar: seu sistema trabalha enquanto você dorme, desde a primeira noite.
+| | Preço | Duração | No fim do dia 1 você tem | Língua |
+|---|---|---|---|---|
+| Curso de "AI Operating System" em coorte | centenas de dólares | semanas | hábitos, mindsets e GPTs de exemplo | inglês |
+| Workshop expresso de marca conhecida | US$100 a 200 | 1,5h | visão geral e prática guiada | inglês |
+| Curso self-paced de big tech | ~US$49 | semanas | fundamentos de prompt | inglês |
+| Guias e templates gratuitos | grátis | você que monte | peças soltas, montagem por sua conta | inglês |
+| **Dia Um** | **no checkout** | **1 dia** | **voz instalada, skill rodando, repo versionado, rotina agendada** | **português** |
 
-E nenhum existe em português, pensado pra quem trabalha no Brasil.
+Dos que analisamos, nenhum fecha o dia 1 com as duas peças que mantêm um sistema vivo:
+
+1. **Seu sistema num repositório com versionamento.** Os outros deixam tudo em pastas e chats soltos. Aqui, seu contexto vive num repo GitHub seu: histórico, backup, portabilidade entre modelos.
+2. **Uma rotina agendada rodando na primeira noite.** Aqui você dorme com o Sincronizador e o Radar no ar: seu sistema trabalha enquanto você dorme, desde o primeiro dia.
+
+E, dos que analisamos, nenhum em português, pensado pra quem trabalha no Brasil.
 
 ## O que "sistema" quer dizer aqui
 
@@ -99,6 +109,8 @@ Participe do dia inteiro. Se não sair com seu sistema rodando, você escreve um
 ## Perguntas diretas
 
 **Preciso saber programar?** Não. Você não toca no terminal. Tudo passa por botão e por texto.
+
+**Tem tutorial grátis disso na internet?** Tem, e alguns são bons. Em inglês, em peças soltas, escritos pra quem programa. O Dia Um é o dia inteiro já montado: a sequência certa, critério binário de "feito" em cada bloco, Plano B documentado quando trava, e comunidade quando trava mesmo assim. Você não paga pela informação, que é abundante. Paga pra sair do outro lado, no mesmo dia, com o sistema rodando.
 
 **Funciona só com Claude?** O dia é ensinado em Claude. Os arquivos que você cria são markdown puro: portáveis pra qualquer modelo. O método sobrevive à troca de ferramenta.
 
