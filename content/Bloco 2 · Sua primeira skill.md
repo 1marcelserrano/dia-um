@@ -19,7 +19,7 @@ tags: [material, prompt, keys, turma-zero, dia-um, publish]
 
 Skill boa não cai do céu. Você preenche o esqueleto abaixo à mão, seguindo os passos. É mão na massa — e é isso que te ensina a fabricar a próxima sozinho.
 
-Assista o vídeo do Bloco 2. É o bloco mais longo do dia (120 min). Vá pelos checkpoints: escolher o candidato, preencher o esqueleto, instalar, testar.
+Assista o vídeo do Bloco 2. É o bloco mais longo do dia (130 min). Vá pelos checkpoints: escolher o candidato, preencher o esqueleto, instalar, testar.
 
 ## Escolher o candidato
 
